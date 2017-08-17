@@ -4,7 +4,7 @@ Building out a responsive UI for mobile/tablet/desktop, working to match up with
 
 ## Technologies Used:
 
-- Bootstrap
+- Bootstrap 3
 - HTML 5
 - CSS 3
 - Sass
