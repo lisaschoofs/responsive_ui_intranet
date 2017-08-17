@@ -11,6 +11,6 @@ body {
   border: 1px solid red;
 
   @media (min-width: $screen-sm) {
-border: 20px solid blue;
+    border: 20px solid blue;
    }
 }
