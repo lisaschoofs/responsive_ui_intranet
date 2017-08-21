@@ -9,28 +9,40 @@
   <body>
     <div class="container-fluid">
       <header>
+        <div class="row">
+
+
         <span id="logo">LOGO</span>
-        <span>SEARCH BAR HERE</span>
-        <div class="directory">
+
+        <div class="input-group col-md-2 col-md-offset-6">
+              <input type="text" class="form-control" placeholder="Search">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">GO</button>
+              </span>
+        </div><!-- /input-group -->
+
+        <div class="directory header-tiles">
           <span>icon</span>
           <p>DIRECTORY</p>
         </div>
-        <div class="location">
+        <div class="location header-tiles">
           <span>icon</span>
           <p>LOCATION</p>
         </div>
-        <div class="entertime">
+        <div class="entertime header-tiles">
           <span>icon</span>
           <p>ENTER TIME</p>
         </div>
-        <div class="travel">
+        <div class="travel header-tiles">
           <span>icon</span>
           <p>TRAVEL</p>
         </div>
-        <div class="forms">
+        <div class="forms header-tiles">
           <span>icon</span>
           <p>FORMS</p>
         </div>
+
+        </div> <!-- ENDS ROW -->
       </header>
     </div>
     <!-- ENDS HEADER -->
@@ -46,24 +58,9 @@
 
         </nav>
 <!-- end nav -->
-    <div class="container">
+    <div class="container page-body">
+      
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="gray-linklist">
-              <h2>MARKET LIST</h2>
-              <ul>
-                <li>+link....</li>
-              </ul>
-              <p>view more link<p>
-          </div>
-          <div class="gray-linklist">
-              <h2>ANNOUNCEMENT</h2>
-              <ul>
-                <li>+link....</li>
-              </ul>
-              <p>view more link<p>
-          </div>
-        </div>
 
         <div class="wrapper newsTile col-xs-12 col-sm-6 col-md-4">
           <div class="top">
@@ -78,35 +75,6 @@
           </div>
         </div> <!-- ENDS newsTile -->
 
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="medium-newsTile">
-              <h2>MEDIUM TILE</h2>
-              <ul>
-                <li>+link....</li>
-              </ul>
-
-          </div>
-          <div class="medium-newsTile">
-              <h2>MEDIUM TILE</h2>
-              <ul>
-                <li>+link....</li>
-              </ul>
-          </div>
-        </div>
-
-      </div> <!-- ENDS ROW -->
-
-
-      <div class="row">
-        <div class="wrapper-orangeheader col-xs-12 col-sm-6 col-md-4">
-          <!-- ng repeat here for news items -->
-          <h2>RECENTLY SIGNED</h2>
-          <div>
-            <span>IMAGE</span>
-            <p>text</p>
-          </div>
-
-        </div> <!-- ends orangeheader section -->
 
         <div class="col-xs-12 col-sm-6 col-md-4">
           <!-- medium newsTile -->
@@ -131,7 +99,60 @@
               </ul>
           </div>
 
-        </div> <!-- ends middle section -->
+        </div> <!-- ENDS MEDIUM/SMALL/SMALL SECTIONS -->
+
+      </div> <!--ENDS ROW -->
+
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="medium-newsTile">
+              <h2>MEDIUM TILE</h2>
+              <ul>
+                <li>+link....</li>
+              </ul>
+
+          </div>
+          <div class="medium-newsTile">
+              <h2>MEDIUM TILE</h2>
+              <ul>
+                <li>+link....</li>
+              </ul>
+          </div>
+        </div>
+
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="gray-linklist">
+              <h2>MARKET LIST</h2>
+              <ul>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+              </ul>
+              <p>view more link<p>
+          </div>
+          <div class="gray-linklist">
+              <h2>ANNOUNCEMENTS</h2>
+              <ul>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+              </ul>
+              <p>view more link<p>
+          </div>
+        </div>
+
+        <div class="wrapper-orangeheader col-xs-12 col-sm-6 col-md-4">
+          <!-- ng repeat here for news items -->
+          <h2>RECENTLY SIGNED</h2>
+          <div>
+            <span>IMAGE</span>
+            <p>text</p>
+          </div>
+
+        </div> <!-- ends orangeheader section -->
+
 
         <div class="wrapper-orangeheader col-xs-12 col-sm-6 col-md-4">
           <!-- ng repeat here for news items -->
@@ -176,6 +197,7 @@
         </div>
         <div class="skyline">
           <!-- <img src="" alt="skyline"> -->
+          <!-- DIV FOR SKYLINE IMAGE ABOVE FOOTER -->
         </div>
         <div class="row footer">
           <div class="departments col-xs-12 col-sm-6 col-md-4">

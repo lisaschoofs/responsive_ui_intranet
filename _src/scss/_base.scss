@@ -22,8 +22,16 @@ header {
   // border-bottom-color: #7cd7e0;
   // text-align: center;
   margin-left: 100px;
-  display: inline-block;
+  // display: inline-block;
 }
+
+.header-tiles {
+  float: right;
+}
+
+// .page-body {
+//   background-color: $customGold;
+// }
 
 #newsTile {
   border: 5px solid $customBlue;
@@ -78,4 +86,7 @@ p {
   color: $customGold;
 }
 
+.input-group {
+
+}
 //media queries.
