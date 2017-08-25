@@ -21,8 +21,27 @@ header {
   // height: 100px;
   // border-bottom-color: #7cd7e0;
   // text-align: center;
-  margin-left: 100px;
+  // margin-left: 100px;
   // display: inline-block;
+}
+
+// div {
+//   border: 1px solid black;
+// }
+
+.icons {
+  display: none;
+  // @media (min-width: $screen-xs) {
+  //   display: none;
+  //  }
+  //  @media (min-width: $screen-sm) {
+  //    display: inline;
+  //   }
+
+}
+
+nav {
+  display: none;
 }
 
 .header-tiles {
@@ -34,11 +53,12 @@ header {
 // }
 
 #newsTile {
-  border: 5px solid $customBlue;
-  height: 300px;
-  width: 300px;
-  margin: 10px;
-  // color: $customGray;
+  background-color: $customBlue;
+  // height: 300px;
+  // width: 300px;
+  // margin: 10%;
+  color: white;
+  margin-top: 15px;
 
   @media (min-width: $screen-xs) {
     font-size: 14px;
@@ -52,7 +72,49 @@ header {
     font-size: 18px;
    }
 
+}
 
+.search {
+  display: none;
+}
+
+#topline {
+  margin-top: 10px;
+  background-color: $customGold;
+  height: 3px;
+}
+
+#orangeTile {
+  background-color: $customGold;
+  color: white;
+}
+
+// .medium-newsTile {
+//   position: absolute;
+// }
+//
+// img {
+//   position: relative;
+// }
+
+.img {
+
+
+}
+
+.blueTile {
+  background-color: $customBlue;
+  color: white;
+}
+
+.grayTile {
+  background-color: $customGray;
+  color: white;
+}
+
+.lightGrayTile {
+  background-color: lightgray;
+  color: white;
 }
 
 // nav {
@@ -67,6 +129,20 @@ nav li {
 
 }
 
+footer li {
+  list-style-type: square;
+  color: $customGold;
+}
+
+a {
+  color: white;
+
+}
+
+a:hover {
+  color: white;
+}
+
 #welcome {
   // margin/padding 0 to remove browser default settings. i guess.
   float: right;
@@ -74,8 +150,8 @@ nav li {
 
 .footer {
   background: $customGray;
-  color: $customGold;
-  height: 100px;
+  color: white;
+  // height: 100px;
 }
 
 #logo {
@@ -88,5 +164,10 @@ p {
 
 .input-group {
 
+}
+
+.multi-column {
+   column-count: 2;
+   list-style-position: inside;
 }
 //media queries.

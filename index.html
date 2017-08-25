@@ -11,40 +11,40 @@
       <header>
         <div class="row">
 
-
         <span id="logo">LOGO</span>
 
-        <div class="input-group col-md-2 col-md-offset-6">
+        <div class="input-group col-md-2 col-md-offset-6 search">
               <input type="text" class="form-control" placeholder="Search">
               <span class="input-group-btn">
                 <button class="btn btn-default" type="button">GO</button>
               </span>
         </div><!-- /input-group -->
 
-        <div class="directory header-tiles">
-          <span>icon</span>
-          <p>DIRECTORY</p>
-        </div>
-        <div class="location header-tiles">
-          <span>icon</span>
-          <p>LOCATION</p>
-        </div>
-        <div class="entertime header-tiles">
-          <span>icon</span>
-          <p>ENTER TIME</p>
-        </div>
-        <div class="travel header-tiles">
-          <span>icon</span>
-          <p>TRAVEL</p>
-        </div>
-        <div class="forms header-tiles">
-          <span>icon</span>
-          <p>FORMS</p>
-        </div>
-
+        <div class="icons">
+          <div class="directory header-tiles">
+            <span>icon</span>
+            <p>DIRECTORY</p>
+          </div>
+          <div class="location header-tiles">
+            <span>icon</span>
+            <p>LOCATION</p>
+          </div>
+          <div class="entertime header-tiles">
+            <span>icon</span>
+            <p>ENTER TIME</p>
+          </div>
+          <div class="travel header-tiles">
+            <span>icon</span>
+            <p>TRAVEL</p>
+          </div>
+          <div class="forms header-tiles">
+            <span>icon</span>
+            <p>FORMS</p>
+          </div>
+        </div> <!-- ENDS ICONS DIV -->
         </div> <!-- ENDS ROW -->
       </header>
-    </div>
+    </div> <!-- ENDS CONTAINER FLUID -->
     <!-- ENDS HEADER -->
         <!-- nav for full desktop -->
         <nav>
@@ -59,72 +59,85 @@
         </nav>
 <!-- end nav -->
     <div class="container page-body">
-      
       <div class="row">
 
-        <div class="wrapper newsTile col-xs-12 col-sm-6 col-md-4">
+        <div id="topline">
+
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+
+        <div class="wrapper newsTile" id="newsTile">
           <div class="top">
             <!-- image here -->
-            <span>IMAGE</span>
+            <span><a href="https://placeholder.com">
+              <img src="http://via.placeholder.com/350x250"></a></span>
           </div>
           <div class="bottom">
             <!-- text stuff -->
-            <h2>LARGE NEWS TILE</h2>
-            <p>text</p>
+            <h2>COMPANY NEWS</h2>
+            <p>12/08/15</p>
             <!-- +link... -->
-          </div>
-        </div> <!-- ENDS newsTile -->
-
+            </div>
+          </div> <!-- ENDS newsTile -->
+        </div> <!-- ENDS col -->
 
         <div class="col-xs-12 col-sm-6 col-md-4">
           <!-- medium newsTile -->
-          <div class="medium-newsTile">
-              <h2>MEDIUM TILE</h2>
-              <ul>
-                <li>+link....</li>
-              </ul>
-          </div>
-          <!-- small newsTile -->
-          <div class="small-newsTile col-md-6">
-              <h4>SMALL TILE</h4>
-              <ul>
-                <li>+link....</li>
-              </ul>
-          </div>
-          <!-- small newsTile -->
-          <div class="small-newsTile col-md-6">
-              <h4>SMALL TILE</h4>
-              <ul>
-                <li>+link....</li>
-              </ul>
-          </div>
+          <div class="row">
+            <div class="col-xs-12"> <!-- NEED TO FILL OUT! -->
+              <div class="medium-newsTile" id="orangeTile">
+                  <h2>CEO'S CORNER</h2>
+                  <h3>Tile Title Element</h3>
+              </div>
+              <!-- small newsTile -->
+              <div class="small-newsTile col-xs-6 blueTile">
+                <a href="https://placeholder.com">
+                  <img src="http://via.placeholder.com/150x100"></a>
+                  <h4>The Latest News and Buzz on Company Projects</h4>
+                  <ul>
+                    <li>+link....</li>
+                  </ul>
+              </div>
+              <!-- small newsTile -->
+              <div class="small-newsTile col-xs-6 grayTile">
+                <a href="https://placeholder.com">
+                  <img src="http://via.placeholder.com/150x100"></a>
+                  <h4>The Latest News and Buzz on Company Projects</h4>
+                  <ul>
+                    <li>+link....</li>
+                  </ul>
+              </div>
 
-        </div> <!-- ENDS MEDIUM/SMALL/SMALL SECTIONS -->
+              </div> <!-- ENDS MEDIUM/SMALL/SMALL SECTIONS -->
+            </div>
+          </div> <!-- ENDS INNER ROW -->
+
 
       </div> <!--ENDS ROW -->
 
       <div class="row">
 
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="medium-newsTile">
-              <h2>MEDIUM TILE</h2>
-              <ul>
-                <li>+link....</li>
-              </ul>
-
+          <div class="medium-newsTile grayTile"><a href="#">
+            <a href="https://placeholder.com">
+              <img class="img-responsive" src="http://via.placeholder.com/150x100"></a>
+              <h2>COMPANY NEWS</h2>
+              <h3>Tile Title Element</h3>
+            </a>
           </div>
-          <div class="medium-newsTile">
-              <h2>MEDIUM TILE</h2>
-              <ul>
-                <li>+link....</li>
-              </ul>
+          <div class="medium-newsTile lightGrayTile"><a href="#">
+            <a href="https://placeholder.com">
+              <img src="http://via.placeholder.com/150x100"></a>
+              <h2>COMPANY NEWS</h2>
+              <h3>Tile Title Element</h3>
+            </a>
           </div>
         </div>
 
 
         <div class="col-xs-12 col-sm-6 col-md-4">
           <div class="gray-linklist">
-              <h2>MARKET LIST</h2>
+              <h2>MARKET NEWS</h2>
               <ul>
                 <li><a href="#">link</a></li>
                 <li><a href="#">link</a></li>
@@ -165,26 +178,8 @@
         </div> <!-- ends orangeheader section -->
       </div> <!-- ENDS ROW -->
 
-
-
-      <!-- <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4" id="newsTile">
-          <p>1.1 Awesome dynamic content goes here....</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4" id="newsTile">
-          <p>1.2 Awesome dynamic content goes here....</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4" id="newsTile">
-          <p>1.3 Awesome dynamic content goes here....</p>
-        </div>
-      </div> -->
-
-
-
-
-
       <!-- FOOTER BELOW -->
-      <div class="container-fluid page-bottom">
+      <footer class="page-bottom">
         <div class="row social">
           <div class="col-xs-12 col-sm-6 col-md-4">
             <span>google</span>
@@ -202,42 +197,41 @@
         <div class="row footer">
           <div class="departments col-xs-12 col-sm-6 col-md-4">
             <h4>DEPARTMENTS</h4>
-            <ul>
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
-              <li>4</li>
-              <li>5</li>
-              <li>6</li>
-              <li>7</li>
-              <li>8</li>
-              <li>9</li>
-              <li>10</li>
-              <li>11</li>
-              <li>12</li>
+            <ul class="multi-column">
+              <li><a href="#">Information Technology</a></li>
+              <li><a href="#">Accounting</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Risk</a></li>
+              <li><a href="#">Real Estate</a></li>
+              <li><a href="#">OPL</a></li>
+              <li><a href="#">Associate Center</a></li>
+              <li><a href="#">Legal</a></li>
+              <li><a href="#">Construction</a></li>
+              <li><a href="#">Company AE</a></li>
+              <li><a href="#">Forms</a></li>
+              <li><a href="#">Facilities</a></li>
             </ul>
           </div>
           <div class="support col-xs-12 col-sm-6 col-md-4">
             <h4>TECHNICAL SUPPORT</h4>
             <ul>
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
+              <li><a href="#">Time Tracking</a></li>
+              <li><a href="#">Technical Support</a></li>
+              <li><a href="#">ONET Frequently Asked Questions</a></li>
             </ul>
           </div>
           <div class="applications col-xs-12 col-sm-6 col-md-4">
             <h4>APPLICATIONS</h4>
             <ul>
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
+              <li><a href="#">Time Tracking</a></li>
+              <li><a href="#">Technical Support</a></li>
+              <li><a href="#">ONET Frequently Asked Questions</a></li>
             </ul>
           </div>
 
         </div>
-      </div>
+      </footer>
     <!-- ends container// FOOTER -->
-
 
   </body>
 </html>
