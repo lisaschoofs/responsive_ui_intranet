@@ -3,15 +3,24 @@
   <head>
     <meta charset="UTF-8">
   	<title>Sweet Intranet Site.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   	<link rel="stylesheet" href="css/style.css">
   	<script src="js/theme.js"></script>
   </head>
   <body>
-    <div class="container-fluid">
+    <!-- <div class="container-fluid"> -->
       <header>
-        <div class="row">
-
-        <span id="logo">LOGO</span>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 top">
+              <span id="logo">LOGO</span>
+              <div class="blueicon">
+                <span class="fa fa-bars fa-2x"></span>
+              </div>
+              <div class="blueicon">
+                <span class="fa fa-search fa-2x"></span>
+              </div>
+            </div>
 
         <div class="input-group col-md-2 col-md-offset-6 search">
               <input type="text" class="form-control" placeholder="Search">
@@ -20,32 +29,34 @@
               </span>
         </div><!-- /input-group -->
 
-        <div class="icons">
-          <div class="directory header-tiles">
-            <span>icon</span>
-            <p>DIRECTORY</p>
-          </div>
-          <div class="location header-tiles">
-            <span>icon</span>
-            <p>LOCATION</p>
-          </div>
-          <div class="entertime header-tiles">
-            <span>icon</span>
-            <p>ENTER TIME</p>
-          </div>
-          <div class="travel header-tiles">
-            <span>icon</span>
-            <p>TRAVEL</p>
-          </div>
-          <div class="forms header-tiles">
-            <span>icon</span>
-            <p>FORMS</p>
-          </div>
-        </div> <!-- ENDS ICONS DIV -->
+          <div class="icons">
+            <div class="directory header-tiles">
+              <span>icon</span>
+              <p>DIRECTORY</p>
+            </div>
+            <div class="location header-tiles">
+              <span>icon</span>
+              <p>LOCATION</p>
+            </div>
+            <div class="entertime header-tiles">
+              <span>icon</span>
+              <p>ENTER TIME</p>
+            </div>
+            <div class="travel header-tiles">
+              <span>icon</span>
+              <p>TRAVEL</p>
+            </div>
+            <div class="forms header-tiles">
+              <span>icon</span>
+              <p>FORMS</p>
+            </div>
+          </div> <!-- ENDS ICONS DIV -->
         </div> <!-- ENDS ROW -->
+        </div> <!-- ENDS CONTAINER FLUID -->
       </header>
-    </div> <!-- ENDS CONTAINER FLUID -->
+
     <!-- ENDS HEADER -->
+
         <!-- nav for full desktop -->
         <nav>
           <ul class="nav navbar-default">
@@ -55,30 +66,28 @@
             <li><a href="#">PROJECT DELIVERY</a></li>
             <li id="welcome">Welcome, {{user.name}}</li>
           </ul>
-
         </nav>
 <!-- end nav -->
+
     <div class="container page-body">
       <div class="row">
-
-        <div id="topline">
-
-        </div>
+        <div id="topline"></div>
         <div class="col-xs-12 col-sm-6 col-md-4">
 
-        <div class="wrapper newsTile" id="newsTile">
-          <div class="top">
-            <!-- image here -->
-            <span><a href="https://placeholder.com">
-              <img src="http://via.placeholder.com/350x250"></a></span>
-          </div>
-          <div class="bottom">
-            <!-- text stuff -->
-            <h2>COMPANY NEWS</h2>
-            <p>12/08/15</p>
-            <!-- +link... -->
+          <div class="wrapper newsTile" id="newsTile">
+            <div class="top" id="imagetest">
+              <!-- image here -->
+              <!-- <span><a href="https://placeholder.com">
+                <img src="http://via.placeholder.com/500x350"></a></span> -->
             </div>
-          </div> <!-- ENDS newsTile -->
+            <div class="bottom">
+              <!-- text stuff -->
+              <h2>COMPANY NEWS</h2>
+              <p>Military Service Provided Excellent Professional Training for Company Employee</p>
+              <p>12/08/15</p>
+              <!-- +link... -->
+              </div>
+            </div> <!-- ENDS newsTile -->
         </div> <!-- ENDS col -->
 
         <div class="col-xs-12 col-sm-6 col-md-4">
@@ -88,41 +97,40 @@
               <div class="medium-newsTile" id="orangeTile">
                   <h2>CEO'S CORNER</h2>
                   <h3>Tile Title Element</h3>
+                  <p>12/08/15</p>
               </div>
               <!-- small newsTile -->
               <div class="small-newsTile col-xs-6 blueTile">
-                <a href="https://placeholder.com">
-                  <img src="http://via.placeholder.com/150x100"></a>
+                <!-- <a href="https://placeholder.com">
+                  <img src="http://via.placeholder.com/150x100"></a> -->
                   <h4>The Latest News and Buzz on Company Projects</h4>
-                  <ul>
-                    <li>+link....</li>
-                  </ul>
+                  <p>12/08/15</p>
               </div>
               <!-- small newsTile -->
               <div class="small-newsTile col-xs-6 grayTile">
-                <a href="https://placeholder.com">
-                  <img src="http://via.placeholder.com/150x100"></a>
+                <!-- <a href="https://placeholder.com">
+                  <img src="http://via.placeholder.com/150x100"></a> -->
                   <h4>The Latest News and Buzz on Company Projects</h4>
-                  <ul>
-                    <li>+link....</li>
-                  </ul>
+                  <p>12/08/15</p>
               </div>
 
               </div> <!-- ENDS MEDIUM/SMALL/SMALL SECTIONS -->
             </div>
           </div> <!-- ENDS INNER ROW -->
-
-
       </div> <!--ENDS ROW -->
 
-      <div class="row">
+      <!-- POSITION ABSOLUTE WITHIN THE WRAPPING
+      wrapping div might relative
+      top & bottom at 0, overflow hidden. Use media queries resizing. -->
 
+      <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-4">
           <div class="medium-newsTile grayTile"><a href="#">
             <a href="https://placeholder.com">
               <img class="img-responsive" src="http://via.placeholder.com/150x100"></a>
               <h2>COMPANY NEWS</h2>
               <h3>Tile Title Element</h3>
+              <p>12/08/15</p>
             </a>
           </div>
           <div class="medium-newsTile lightGrayTile"><a href="#">
@@ -130,12 +138,23 @@
               <img src="http://via.placeholder.com/150x100"></a>
               <h2>COMPANY NEWS</h2>
               <h3>Tile Title Element</h3>
+              <p>12/08/15</p>
             </a>
           </div>
         </div>
 
+<!-- <h4>MARKET NEWS</h4>
+<h4>ANNOUNCEMENTS</h4>
+<h4>RECENTLY SIGNED</h4>
+<h4>UPCOMING EVENTS</h4> -->
 
         <div class="col-xs-12 col-sm-6 col-md-4">
+
+          <!-- <h4>MARKET NEWS</h4>
+          <h4>ANNOUNCEMENTS</h4>
+          <h4>RECENTLY SIGNED</h4>
+          <h4>UPCOMING EVENTS</h4> -->
+
           <div class="gray-linklist">
               <h2>MARKET NEWS</h2>
               <ul>
@@ -179,19 +198,19 @@
       </div> <!-- ENDS ROW -->
 
       <!-- FOOTER BELOW -->
-      <footer class="page-bottom">
+      <footer class="container-fluid page-bottom">
         <div class="row social">
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <span>google</span>
-            <span>twitter</span>
-            <span>youtube</span>
+          <div class="col-xs-12 col-sm-6 col-md-4 socialIcons">
             <p>FEEDBACK</p>
             <p>SUPPORT</p>
-            <p>LINK</p>
+            <p>COMPANY-GROUP.COM</p>
+            <a href="#" class="fa fa-google-plus-square fa-3x"></a>
+            <a href="#" class="fa fa1 fa-twitter-square fa-3x"></a>
+            <a href="#" class="fa fa1 fa-youtube-square fa-3x"></a>
           </div>
         </div>
         <div class="skyline">
-          <!-- <img src="" alt="skyline"> -->
+          <!-- <img src="skyline.jpg" alt="skyline"> -->
           <!-- DIV FOR SKYLINE IMAGE ABOVE FOOTER -->
         </div>
         <div class="row footer">

@@ -23,6 +23,8 @@ header {
   // text-align: center;
   // margin-left: 100px;
   // display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 // div {
@@ -37,6 +39,10 @@ header {
   //  @media (min-width: $screen-sm) {
   //    display: inline;
   //   }
+
+}
+
+.socialIcons {
 
 }
 
@@ -59,6 +65,7 @@ nav {
   // margin: 10%;
   color: white;
   margin-top: 15px;
+  position: relative;
 
   @media (min-width: $screen-xs) {
     font-size: 14px;
@@ -72,6 +79,10 @@ nav {
     font-size: 18px;
    }
 
+}
+
+#imagetest {
+  position: relative;
 }
 
 .search {
@@ -96,10 +107,29 @@ nav {
 // img {
 //   position: relative;
 // }
+//
+// img {
+//       display: block;
+//       height: 50%;
+//       overflow: hidden;
+//       // width: 50%;
+//
+// }
 
-.img {
+.top {
+  display: inline-block;
+}
 
-
+.blueicon {
+  height: 45px;
+  width: 45px;
+  background-color: $customBlue;
+  color: white;
+  margin: 5px;
+  display: inline-block;
+  float: right;
+  text-align: center;
+  padding: 8px;
 }
 
 .blueTile {
@@ -113,6 +143,7 @@ nav {
 }
 
 .lightGrayTile {
+  // background-image: url("http://via.placeholder.com/150x100");
   background-color: lightgray;
   color: white;
 }
@@ -129,9 +160,15 @@ nav li {
 
 }
 
+footer {
+    background: $customGray;
+}
+
 footer li {
+  list-style-position: inside;
   list-style-type: square;
   color: $customGold;
+  padding: 3px;
 }
 
 a {
@@ -168,6 +205,26 @@ p {
 
 .multi-column {
    column-count: 2;
-   list-style-position: inside;
+}
+
+
+.gray-linklist {
+  @media (min-width: $screen-xs) {
+    background-color: lightgray;
+   }
+
+  @media (min-width: $screen-md) {
+    font-size: 16px;
+   }
+}
+
+.wrapper-orangeheader {
+  @media (min-width: $screen-xs) {
+    background-color: $customGold
+   }
+
+  @media (min-width: $screen-md) {
+    font-size: 16px;
+   }
 }
 //media queries.
