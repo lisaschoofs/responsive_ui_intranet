@@ -1,0 +1,30 @@
+.sidenav {
+  height: 100%;
+  display: none;
+  background-color: lightgray;
+  color: white;
+  position: fixed;
+  z-index: 1;
+}
+
+.icons {
+  height: 200px;
+  padding: 15px;
+  background-color: $customGray;
+}
+
+.header-tiles {
+  height: 50px;
+  width: 50px;
+  background-color: $customGold;
+  text-align: center;
+  padding: 2px;
+  margin: 2.5px;
+  display: inline-block;
+  // display: inline;
+}
+
+.header-tiles > p {
+  color: white;
+  font-size: 8px;
+}
