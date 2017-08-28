@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   	<link rel="stylesheet" href="css/style.css">
   	<script src="js/theme.js"></script>
+    <script type="text/javascript">
+
+    </script>
   </head>
   <body>
     <!-- <div class="container-fluid"> -->
@@ -14,10 +17,10 @@
           <div class="row">
             <div class="col-xs-12 top">
               <span id="logo">LOGO</span>
-              <div class="blueicon">
+              <div class="blueicon" id="sidemenu">
                 <span class="fa fa-bars fa-2x"></span>
               </div>
-              <div class="blueicon">
+              <div class="blueicon" id="search">
                 <span class="fa fa-search fa-2x"></span>
               </div>
             </div>
@@ -29,6 +32,7 @@
               </span>
         </div><!-- /input-group -->
 
+<!-- FOR SIDE MENU -->
           <div class="icons">
             <div class="directory header-tiles">
               <span>icon</span>
@@ -54,11 +58,10 @@
         </div> <!-- ENDS ROW -->
         </div> <!-- ENDS CONTAINER FLUID -->
       </header>
+<!-- ENDS HEADER -->
 
-    <!-- ENDS HEADER -->
-
-        <!-- nav for full desktop -->
-        <nav>
+<!-- nav for full desktop -->
+        <!-- <nav>
           <ul class="nav navbar-default">
             <li><a href="#">DEPARTMENTS</a></li>
             <li><a href="#">TOOLS</a></li>
@@ -66,8 +69,12 @@
             <li><a href="#">PROJECT DELIVERY</a></li>
             <li id="welcome">Welcome, {{user.name}}</li>
           </ul>
-        </nav>
+        </nav> -->
 <!-- end nav -->
+
+  <!-- <div class="sidenav">
+    <p>WHATTUP!</p>
+  </div> -->
 
     <div class="container page-body">
       <div class="row">
@@ -75,49 +82,55 @@
         <div class="col-xs-12 col-sm-6 col-md-4">
 
           <div class="wrapper newsTile" id="newsTile">
-            <div class="top" id="imagetest">
-              <!-- image here -->
-              <!-- <span><a href="https://placeholder.com">
-                <img src="http://via.placeholder.com/500x350"></a></span> -->
+            <div class="top image-block" style="background: url(http://via.placeholder.com/500x350) no-repeat center top; background-size:cover;">
             </div>
             <div class="bottom">
               <!-- text stuff -->
-              <h2>COMPANY NEWS</h2>
-              <p>Military Service Provided Excellent Professional Training for Company Employee</p>
-              <p>12/08/15</p>
+              <h3>COMPANY NEWS</h3>
+              <h4>Military Service Provided Excellent Professional Training for Company Employee</h4>
+              <p class="date">12/08/15</p>
               <!-- +link... -->
               </div>
             </div> <!-- ENDS newsTile -->
         </div> <!-- ENDS col -->
 
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <!-- medium newsTile -->
-          <div class="row">
-            <div class="col-xs-12"> <!-- NEED TO FILL OUT! -->
-              <div class="medium-newsTile" id="orangeTile">
-                  <h2>CEO'S CORNER</h2>
-                  <h3>Tile Title Element</h3>
-                  <p>12/08/15</p>
-              </div>
-              <!-- small newsTile -->
-              <div class="small-newsTile col-xs-6 blueTile">
-                <!-- <a href="https://placeholder.com">
-                  <img src="http://via.placeholder.com/150x100"></a> -->
-                  <h4>The Latest News and Buzz on Company Projects</h4>
-                  <p>12/08/15</p>
-              </div>
-              <!-- small newsTile -->
-              <div class="small-newsTile col-xs-6 grayTile">
-                <!-- <a href="https://placeholder.com">
-                  <img src="http://via.placeholder.com/150x100"></a> -->
-                  <h4>The Latest News and Buzz on Company Projects</h4>
-                  <p>12/08/15</p>
-              </div>
 
-              </div> <!-- ENDS MEDIUM/SMALL/SMALL SECTIONS -->
+          <!-- medium newsTile -->
+            <div class="col-xs-12">
+              <div class="wrapper medium-newsTile" id="orangeTile">
+                <div class="left" style="background: url(http://via.placeholder.com/150x150) no-repeat center top; background-size:cover;">
+                </div>
+                <div class="right">
+                  <h3>CEO'S CORNER</h3>
+                  <h4>Tile Title Element</h4>
+                  <p class="date">12/08/15</p>
+                </div>
+              </div>
             </div>
-          </div> <!-- ENDS INNER ROW -->
-      </div> <!--ENDS ROW -->
+
+              <!-- small newsTile -->
+              <div class="col-xs-6">
+                <div class="wrapper small-newsTile blueTile">
+                  <div class="top image-block-small" style="background: url(http://via.placeholder.com/150X100) no-repeat center top; background-size:cover;">
+                  </div>
+                  <div class="bottom">
+                    <h5>The Latest News and Buzz on Company Projects</h5>
+                    <p class="date">12/08/15</p>
+                  </div>
+                </div>
+              </div>
+              <!-- small newsTile -->
+              <div class="col-xs-6 test">
+                <div class="wrapper small-newsTile grayTile">
+                  <div class="top image-block-small" style="background: url(http://via.placeholder.com/150X100) no-repeat center top; background-size:cover;">
+                  </div>
+                  <div class="bottom">
+                    <h5>The Latest News and Buzz on Company Projects</h5>
+                    <p class="date">12/08/15</p>
+                  </div>
+                </div>
+              </div>
+      </div> <!-- ENDS MEDIUM/SMALL/SMALL SECTIONS -->
 
       <!-- POSITION ABSOLUTE WITHIN THE WRAPPING
       wrapping div might relative
@@ -138,7 +151,7 @@
               <img src="http://via.placeholder.com/150x100"></a>
               <h2>COMPANY NEWS</h2>
               <h3>Tile Title Element</h3>
-              <p>12/08/15</p>
+              <p class="date">12/08/15</p>
             </a>
           </div>
         </div>
@@ -193,7 +206,6 @@
             <span>IMAGE</span>
             <p>text</p>
           </div>
-
         </div> <!-- ends orangeheader section -->
       </div> <!-- ENDS ROW -->
 
@@ -250,6 +262,7 @@
 
         </div>
       </footer>
+<!-- </div> -->
     <!-- ends container// FOOTER -->
 
   </body>
