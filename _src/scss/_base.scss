@@ -31,7 +31,7 @@ header {
 .sidenav {
   height: 100%;
   display: none;
-  background-color: lightgray;
+  background-color: #bfbfbf;
   color: white;
   position: fixed;
   z-index: 1;
@@ -46,6 +46,12 @@ header {
 .dropdown {
   border-top: 1px solid $customGray;
   border-bottom: 1px solid $customGray;
+}
+
+.dropdownHeader {
+  padding: 30px;
+  text-align: right;
+  // : 50px;
 }
 
 .header-tiles {
@@ -67,6 +73,12 @@ header {
 
 nav {
   display: none;
+}
+
+.sitenav {
+  background-color: $customGray;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .date {
@@ -168,6 +180,7 @@ nav {
   width: 125px;
   padding: 0px;
   margin: 0px;
+  margin-bottom: 10px;
   // display: inline-block;
 }
 
@@ -175,7 +188,10 @@ nav {
   // display: inline-block;
   // text-align: center;
   height: 125px;
-  padding-left: 25px;
+  padding-left: 125px;
+  padding-top: 1px;
+  margin-left: 10px;
+  clear: right;
 }
 
 .orangeTile {
@@ -213,7 +229,7 @@ nav {
 
 .lightGrayTile {
   // background-image: url("http://via.placeholder.com/150x100");
-  background-color: lightgray;
+  background-color: #bfbfbf;
   color: white;
 }
 
@@ -291,12 +307,19 @@ a:hover {
    column-count: 2;
 }
 
+.links {
+  color: $customGold;
+  span {
+    color: $customGold;
+  }
+}
+
 
 .gray-linklist {
   @media (max-width: $screen-xs) {
     h4 {
       color: $customGray;
-      background-color: lightgray;
+      background-color: #bfbfbf;
       height: 30px;
       width: 100%;
       padding: 5px;
