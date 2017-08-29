@@ -1,0 +1,87 @@
+#newsTile {
+  background-color: $customBlue;
+  color: white;
+  margin-top: 15px;
+
+  @media (min-width: $screen-xs) {
+    font-size: 14px;
+   }
+
+  @media (min-width: $screen-md) {
+    font-size: 16px;
+   }
+
+  @media (min-width: $screen-lg) {
+    font-size: 18px;
+   }
+}
+
+#orangeTile {
+  background-color: $customGold;
+  color: white;
+}
+
+.medium-newsTile {
+  // display: inline-block;
+  // vertical-align: bottom;
+}
+
+.left {
+  height: 150px;
+  width: 150px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 10px;
+  // display: inline-block;
+
+  background: url(http://via.placeholder.com/150x150) no-repeat center top;
+  background-size:cover;
+
+}
+
+.right {
+  // display: inline-block;
+  // text-align: center;
+  height: 150px;
+  padding-left: 150px;
+  padding-top: 1px;
+  margin-left: 10px;
+  clear: right;
+}
+
+.orangeTile {
+  // text-align: right;
+  // display: inline-block;
+  // clear: both;
+  // float: right;
+  margin-bottom: 10px;
+}
+
+.image-block {
+    padding: 0px;
+    margin: 0px;
+    height:200px;
+    vertical-align: bottom;
+}
+
+.image-block-small {
+    padding: 0px;
+    margin: 0px;
+    height:100px;
+    // text-align: center;
+    vertical-align: bottom;
+}
+
+.small-newsTile {
+  h5 {
+    // font-size: 11px;
+    margin-bottom: 0;
+  }
+}
+
+.bottom {
+  // float: left;
+  // height: 500px;
+  // width: 500px;
+  padding-left: 6px;
+}

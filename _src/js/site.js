@@ -1,11 +1,14 @@
 $(document).ready(function(){
-  console.log('jquery loaded!');
   eventListeners();
 });
 
+//Listeners for sideNav toggling
 function eventListeners() {
   $("#sidemenu").on('click', function(){
-    console.log('you clicked side menu!');
+    $( ".sidenav" ).toggle( "slow" );
+  });
+
+  $(".dropdownHeader").on('click', function(){
     $( ".sidenav" ).toggle( "slow" );
   });
 }

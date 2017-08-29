@@ -8,93 +8,82 @@
   	<script src="js/theme.js"></script>
   </head>
   <body>
-
-    <div class="container sidenav">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="dropdownHeader">
-            <h4>ONET MENU</h4>
-          </div>
-          <div class="dropdown">
-            <h4><span>▾</span> SITE NAVIGATION</h4>
-            <ul class="sitenav">
-              <li>HOME</li>
-              <li>DEPARTMENTS</li>
-              <li>TOOLS</li>
-              <li>ASSOCIATE CENTER</li>
-              <li>PROJECT DELIVERY</li>
-            </div>
-            <div class="dropdown mylinks">
-              <h4><span>▸</span> MY LINKS</h4>
-            </div>
-            <div class="dropdown shortcuts">
-              <h4><span>▾</span> SHORTCUTS</h4>
-              <div class="icons">
-                <div class="directory header-tiles">
-                  <span class="fa fa-users fa-2x"></span>
-                  <p>DIRECTORY</p>
-                </div>
-                <div class="location header-tiles">
-                  <span class="fa fa-map-marker fa-2x"></span>
-                  <p>LOCATION</p>
-                </div>
-                <div class="entertime header-tiles">
-                  <span class="fa fa-clock-o fa-2x"></span>
-                  <p>ENTER TIME</p>
-                </div>
-                <div class="travel header-tiles">
-                  <span class="fa fa-plane fa-2x"></span>
-                  <p>TRAVEL</p>
-                </div>
-                <div class="forms header-tiles">
-                  <span class="fa fa-list fa-2x"></span>
-                  <p>FORMS</p>
-                </div>
-              </div> <!-- ENDS ICONS DIV -->
-            </div>
+    <div class="container-fluid">
+      <div class="row sidenav">
+        <div class="dropdownHeader">
+          <h4>ONET MENU</h4>
+        </div>
+        <div class="dropdown">
+          <h4><span>▾</span> SITE NAVIGATION</h4>
+          <ul class="sitenav">
+            <li>HOME</li>
+            <li>DEPARTMENTS</li>
+            <li>TOOLS</li>
+            <li>ASSOCIATE CENTER</li>
+            <li>PROJECT DELIVERY</li>
+        </div>
+        <div class="dropdown mylinks">
+          <h4><span>▸</span> MY LINKS</h4>
+        </div>
+          <div class="dropdown shortcuts">
+            <h4><span>▾</span> SHORTCUTS</h4>
+            <div class="icons">
+              <div class="directory header-tiles">
+                <span class="fa fa-users fa-3x"></span>
+                <p>DIRECTORY</p>
+              </div>
+              <div class="location header-tiles">
+                <span class="fa fa-map-marker fa-3x"></span>
+                <p>LOCATION</p>
+              </div>
+              <div class="entertime header-tiles">
+                <span class="fa fa-clock-o fa-3x"></span>
+                <p>ENTER TIME</p>
+              </div>
+              <div class="travel header-tiles">
+                <span class="fa fa-plane fa-3x"></span>
+                <p>TRAVEL</p>
+              </div>
+              <div class="forms header-tiles">
+                <span class="fa fa-list fa-3x"></span>
+                <p>FORMS</p>
+              </div>
+            </div> <!-- ENDS ICONS DIV -->
           </div>
         </div>
       </div>
-
-
       <header>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xs-12 top">
-              <span id="logo">LOGO</span>
-              <div class="blueicon" id="sidemenu">
-                <span class="fa fa-bars fa-2x"></span>
-              </div>
-              <div class="blueicon" id="search">
-                <span class="fa fa-search fa-2x"></span>
-              </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 top">
+            <span id="logo">LOGO</span>
+            <div class="blueicon" id="sidemenu">
+              <span class="fa fa-bars fa-2x"></span>
             </div>
-
-        <div class="input-group col-md-2 col-md-offset-6 search">
+            <div class="blueicon" id="search">
+              <span class="fa fa-search fa-2x"></span>
+            </div>
+          </div>
+          <div class="input-group col-md-2 col-md-offset-6 search">
               <input type="text" class="form-control" placeholder="Search">
               <span class="input-group-btn">
                 <button class="btn btn-default" type="button">GO</button>
               </span>
-        </div><!-- /input-group -->
-      </div> <!-- ENDS ROW -->
-    </div> <!-- ENDS CONTAINER FLUID -->
-  </header>
+          </div><!-- /input-group -->
+        </div> <!-- ENDS ROW -->
+      </div> <!-- ENDS CONTAINER FLUID -->
+    </header>
 <!-- ENDS HEADER -->
-
-<!-- nav for full desktop -->
-        <!-- <nav>
-          <ul class="nav navbar-default">
-            <li><a href="#">DEPARTMENTS</a></li>
-            <li><a href="#">TOOLS</a></li>
-            <li><a href="#">ASSOCIATE CENTER</a></li>
-            <li><a href="#">PROJECT DELIVERY</a></li>
-            <li id="welcome">Welcome, {{user.name}}</li>
-          </ul>
-        </nav> -->
-<!-- end nav -->
-
-
-
+<!-- original nav for full desktop -->
+    <!-- <nav>
+      <ul class="nav navbar-default">
+        <li><a href="#">DEPARTMENTS</a></li>
+        <li><a href="#">TOOLS</a></li>
+        <li><a href="#">ASSOCIATE CENTER</a></li>
+        <li><a href="#">PROJECT DELIVERY</a></li>
+        <li id="welcome">Welcome, {{user.name}}</li>
+      </ul>
+    </nav> -->
     <div class="container page-body">
       <div class="row">
         <div id="topline"></div>
@@ -103,81 +92,69 @@
             <div class="top image-block" style="background: url(http://via.placeholder.com/500x300) no-repeat center top; background-size:cover;">
             </div>
             <div class="bottom">
-              <!-- text stuff -->
               <h3>COMPANY NEWS</h3>
               <h4>Military Service Provided Excellent Professional Training for Company Employee</h4>
               <p class="date">12/08/15</p>
-              </div>
-            </div> <!-- ENDS newsTile -->
-        </div> <!-- ENDS col -->
-
-          <!-- medium newsTile -->
-            <div class="col-xs-12">
-              <div class="wrapper medium-newsTile" id="orangeTile">
-                <div class="left col-xs-4" style="background: url(http://via.placeholder.com/100x100) no-repeat center top; background-size:cover;">
-                </div>
-                <div class="right col-xs-offset:8">
-                  <h3>CEO'S CORNER</h3>
-                  <h4>Tile Title Element</h4>
-                  <p class="date">12/08/15</p>
-                </div>
-              </div>
             </div>
-              <!-- small newsTile -->
-              <div class="col-xs-6">
-                <div class="wrapper small-newsTile blueTile">
-                  <div class="top image-block-small" style="background: url(http://via.placeholder.com/150X100) no-repeat center top; background-size:cover;">
-                  </div>
-                  <div class="bottom">
-                    <h5>The Latest News and Buzz on Company Projects</h5>
-                    <p class="date">12/08/15</p>
-                  </div>
-                </div>
-              </div>
-              <!-- small newsTile -->
-              <div class="col-xs-6 test">
-                <div class="wrapper small-newsTile grayTile">
-                  <div class="top image-block-small" style="background: url(http://via.placeholder.com/150X100) no-repeat center top; background-size:cover;">
-                  </div>
-                  <div class="bottom">
-                    <h5>The Latest News and Buzz on Company Projects</h5>
-                    <p class="date">12/08/15</p>
-                  </div>
-                </div>
-              </div>
-
-            <!-- </div>  -->
-            <!-- ENDS MEDIUM/SMALL/SMALL SECTIONS -->
-
-      <!-- POSITION ABSOLUTE WITHIN THE WRAPPING
-      wrapping div might relative
-      top & bottom at 0, overflow hidden. Use media queries resizing. -->
-
-      <!-- <div class="row"> -->
+          </div> <!-- ENDS newsTile -->
+        </div> <!-- ENDS col -->
+        <!-- medium newsTile -->
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="medium-newsTile grayTile"><a href="#">
-            <a href="https://placeholder.com">
-              <img class="img-responsive" src="http://via.placeholder.com/150x100"></a>
-              <h2>COMPANY NEWS</h2>
-              <h3>Tile Title Element</h3>
-              <p class="date">12/08/15</p>
-            </a>
-          </div>
-          <div class="medium-newsTile lightGrayTile"><a href="#">
-            <a href="https://placeholder.com">
-              <img src="http://via.placeholder.com/150x100"></a>
-              <h2>COMPANY NEWS</h2>
-              <h3>Tile Title Element</h3>
-              <p class="date">12/08/15</p>
-            </a>
+          <div class="wrapper medium-newsTile" id="orangeTile">
+            <div class="left col-xs-4" style="background: url(http://via.placeholder.com/150x150) no-repeat center top; background-size:cover;">
+            </div>
+            <div class="right col-xs-offset:8">
+              <h4>CEO'S CORNER</h4>
+              <h4>Tile Title Element</h4>
+              <p class="date mediumDate">12/08/15</p>
+            </div>
           </div>
         </div>
-
-<!-- <h4>MARKET NEWS</h4>
-<h4>ANNOUNCEMENTS</h4>
-<h4>RECENTLY SIGNED</h4>
-<h4>UPCOMING EVENTS</h4> -->
-
+        <!-- small newsTile -->
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="wrapper small-newsTile blueTile">
+            <div class="top image-block-small" style="background: url(http://via.placeholder.com/150X100) no-repeat center top; background-size:cover;">
+            </div>
+            <div class="bottom">
+              <h5>The Latest News and Buzz on Company Projects</h5>
+              <p class="date">12/08/15</p>
+            </div>
+          </div>
+        </div>
+        <!-- small newsTile -->
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="wrapper small-newsTile grayTile">
+            <div class="top image-block-small" style="background: url(http://via.placeholder.com/150X100) no-repeat center top; background-size:cover;">
+            </div>
+            <div class="bottom">
+              <h5>The Latest News and Buzz on Company Projects</h5>
+              <p class="date">12/08/15</p>
+            </div>
+          </div>
+        </div>
+      <!-- <div class="row"> -->
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="wrapper medium-newsTile grayTile">
+            <div class="left col-xs-4" style="background: url(http://via.placeholder.com/150x150) no-repeat center top; background-size:cover;">
+            </div>
+            <div class="right col-xs-offset:8">
+              <h4>COMPANY NEWS</h4>
+              <h4>Tile Title Element</h4>
+              <p class="date mediumDate">12/08/15</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="wrapper medium-newsTile lightGrayTile">
+            <div class="left col-xs-4" style="">
+            </div>
+            <div class="right col-xs-offset:8">
+              <h4>COMPANY NEWS</h4>
+              <h4>Tile Title Element</h4>
+              <p class="date mediumDate">12/08/15</p>
+            </div>
+          </div>
+        </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
           <div class="gray-linklist">
               <h4><span>▸</span> MARKET NEWS</h4>
@@ -208,9 +185,7 @@
             <span>IMAGE</span>
             <p>text</p>
           </div> -->
-        </div> <!-- ends orangeheader section -->
-
-
+        </div>
         <div class="wrapper-orangeheader col-xs-12 col-sm-6 col-md-4">
           <h4><span>▸</span> UPCOMING EVENTS</h4>
           <!-- ng repeat here for news items -->
@@ -218,71 +193,66 @@
             <span>IMAGE</span>
             <p>text</p>
           </div> -->
-        </div> <!-- ends orangeheader section -->
+        </div>
       </div> <!-- ENDS ROW -->
-    </div> <!-- ENDS CONTAINER PAGEBODY -->
-
+    </div> <!-- ENDS CONTAINER -->
     <div class="container-fluid">
       <div class="skyline">
-        <!-- <img src="skyline.jpg" alt="skyline"> -->
-        <p>(whoa, cool skyline img!)</p>
+        <p>(whoa, sweet skyline image!)</p>
       </div>
     </div>
-      <!-- FOOTER BELOW -->
-      <footer class="container-fluid page-bottom">
-        <div class="row social">
-          <div class="col-xs-12 col-sm-6 col-md-4 socialIcons links">
-            <p>FEEDBACK</p>
-            <p>SUPPORT</p>
-            <p>COMPANY-GROUP.COM</p>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 socialIcons">
-            <a href="#" class="fa fa-google-plus-square fa-3x"></a>
-            <a href="#" class="fa fa1 fa-twitter-square fa-3x"></a>
-            <a href="#" class="fa fa1 fa-youtube-square fa-3x"></a>
-          </div>
+    <!-- FOOTER -->
+    <footer class="container-fluid page-bottom">
+      <div class="row social">
+        <div class="col-xs-12 col-sm-6 col-md-4 links">
+          <!-- <span>FEEDBACK</span>
+          <span>SUPPORT</span>
+          <span>COMPANY-GROUP.COM</span> -->
+          <p>FEEDBACK</p>
+          <p>SUPPORT</p>
+          <p>COMPANY-GROUP.COM</p>
         </div>
-
-        <div class="row footer">
-
-          <div class="departments col-xs-12 col-sm-6 col-md-4">
-            <h4>DEPARTMENTS</h4>
-            <ul class="multi-column">
-              <li><a href="#">Information Technology</a></li>
-              <li><a href="#">Accounting</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Risk</a></li>
-              <li><a href="#">Real Estate</a></li>
-              <li><a href="#">OPL</a></li>
-              <li><a href="#">Associate Center</a></li>
-              <li><a href="#">Legal</a></li>
-              <li><a href="#">Construction</a></li>
-              <li><a href="#">Company AE</a></li>
-              <li><a href="#">Forms</a></li>
-              <li><a href="#">Facilities</a></li>
-            </ul>
-          </div>
-          <div class="support col-xs-12 col-sm-6 col-md-4">
-            <h4>TECHNICAL SUPPORT</h4>
-            <ul>
-              <li><a href="#">Time Tracking</a></li>
-              <li><a href="#">Technical Support</a></li>
-              <li><a href="#">ONET Frequently Asked Questions</a></li>
-            </ul>
-          </div>
-          <div class="applications col-xs-12 col-sm-6 col-md-4">
-            <h4>APPLICATIONS</h4>
-            <ul>
-              <li><a href="#">Time Tracking</a></li>
-              <li><a href="#">Technical Support</a></li>
-              <li><a href="#">ONET Frequently Asked Questions</a></li>
-            </ul>
-          </div>
-
-        </div> <!-- ENDS CLASS:FOOTER -->
-      </footer>
-<!-- </div> -->
-    <!-- ends container// FOOTER -->
-
+        <div class="col-xs-12 col-sm-6 col-md-4 socialIcons">
+          <a href="#" class="fa fa-google-plus-square fa-3x"></a>
+          <a href="#" class="fa fa1 fa-twitter-square fa-3x"></a>
+          <a href="#" class="fa fa1 fa-youtube-square fa-3x"></a>
+        </div>
+      </div>
+      <div class="row footer">
+        <div class="departments col-xs-12 col-sm-6 col-md-4">
+          <h4>DEPARTMENTS</h4>
+          <ul class="multi-column">
+            <li><a href="#">Information Technology</a></li>
+            <li><a href="#">Accounting</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Risk</a></li>
+            <li><a href="#">Real Estate</a></li>
+            <li><a href="#">OPL</a></li>
+            <li><a href="#">Associate Center</a></li>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Construction</a></li>
+            <li><a href="#">Company AE</a></li>
+            <li><a href="#">Forms</a></li>
+            <li><a href="#">Facilities</a></li>
+          </ul>
+        </div>
+        <div class="support col-xs-12 col-sm-6 col-md-4">
+          <h4>TECHNICAL SUPPORT</h4>
+          <ul>
+            <li><a href="#">Time Tracking</a></li>
+            <li><a href="#">Technical Support</a></li>
+            <li><a href="#">ONET Frequently Asked Questions</a></li>
+          </ul>
+        </div>
+        <div class="applications col-xs-12 col-sm-6 col-md-4">
+          <h4>APPLICATIONS</h4>
+          <ul>
+            <li><a href="#">Time Tracking</a></li>
+            <li><a href="#">Technical Support</a></li>
+            <li><a href="#">ONET Frequently Asked Questions</a></li>
+          </ul>
+        </div>
+      </div> <!-- ENDS CLASS:FOOTER -->
+    </footer>
   </body>
 </html>
