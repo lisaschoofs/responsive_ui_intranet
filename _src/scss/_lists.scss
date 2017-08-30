@@ -1,0 +1,29 @@
+.gray-linklist {
+  @media (max-width: $screen-xs) {
+    h4 {
+      color: $customGray;
+      background-color: #bfbfbf;
+      height: 30px;
+      width: 100%;
+      padding: 5px;
+    }
+   }
+  @media (min-width: $screen-md) {
+    font-size: 16px;
+   }
+}
+
+.wrapper-orangeLinkList {
+  @media (max-width: $screen-xs) {
+    h4 {
+      color: white;
+      background-color: $customGold;
+      height: 30px;
+      width: 100%;
+      padding: 5px;
+    }
+   }
+  @media (min-width: $screen-md) {
+    font-size: 16px;
+   }
+}

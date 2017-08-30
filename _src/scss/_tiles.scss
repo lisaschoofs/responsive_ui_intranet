@@ -2,15 +2,12 @@
   background-color: $customBlue;
   color: white;
   margin-top: 15px;
-
   @media (min-width: $screen-xs) {
     font-size: 14px;
    }
-
   @media (min-width: $screen-md) {
     font-size: 16px;
    }
-
   @media (min-width: $screen-lg) {
     font-size: 18px;
    }
@@ -21,13 +18,21 @@
   color: white;
 }
 
-.medium-newsTile {
+.orangeTile {
+  // text-align: right;
   // display: inline-block;
-  // vertical-align: bottom;
+  // clear: both;
+  // float: right;
+  margin-bottom: 10px;
 }
 
 .top {
   background: url(http://via.placeholder.com/150X100) no-repeat center top;
+  background-size:cover;
+}
+
+.topLarge {
+  background: url(http://via.placeholder.com/500x300) no-repeat center top;
   background-size:cover;
 }
 
@@ -51,32 +56,23 @@
   clear: right;
 }
 
-.orangeTile {
-  // text-align: right;
-  // display: inline-block;
-  // clear: both;
-  // float: right;
-  margin-bottom: 10px;
-}
-
 .image-block {
-    padding: 0px;
-    margin: 0px;
-    height:200px;
-    vertical-align: bottom;
+  padding: 0px;
+  margin: 0px;
+  height:200px;
+  vertical-align: bottom;
 }
 
 .image-block-small {
-    padding: 0px;
-    margin: 0px;
-    height:100px;
-    // text-align: center;
-    vertical-align: bottom;
+  padding: 0px;
+  margin: 0px;
+  height:100px;
+  // text-align: center;
+  vertical-align: bottom;
 }
 
 .small-newsTile {
   h5 {
-    // font-size: 11px;
     margin-bottom: 0;
   }
 }

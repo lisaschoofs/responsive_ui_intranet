@@ -11,6 +11,10 @@ header {
   margin-bottom: 10px;
 }
 
+// nav {
+//   display: none;
+// }
+
 .sidenav {
   height: 100%;
   display: none;
@@ -18,10 +22,6 @@ header {
   color: white;
   position: fixed;
   z-index: 1;
-}
-
-nav {
-  display: none;
 }
 
 .date {
@@ -82,22 +82,20 @@ nav li {
 }
 
 footer {
-    background: $customGray;
-}
-
-footer li {
-  list-style-position: inside;
-  list-style-type: square;
-  color: $customGold;
-  padding: 3px;
+  background: $customGray;
+  li {
+    list-style-position: inside;
+    list-style-type: square;
+    color: $customGold;
+    padding: 3px;
+  }
 }
 
 a {
   color: white;
-}
-
-a:hover {
-  color: white;
+  &:hover {
+    color: white;
+  }
 }
 
 .social {
@@ -114,16 +112,16 @@ a:hover {
   }
 }
 
+//for desktop nav...
 #welcome {
-  // margin/padding 0 to remove browser default settings. i guess.
   float: right;
 }
 
 .skyline {
-    text-align: center;
-    height: 120px;
-    width: 100%;
-    padding: 40px;
+  text-align: center;
+  height: 120px;
+  width: 100%;
+  padding: 40px;
 }
 
 .footer {
@@ -152,32 +150,6 @@ a:hover {
   padding-left: 25px;
 }
 
-.gray-linklist {
-  @media (max-width: $screen-xs) {
-    h4 {
-      color: $customGray;
-      background-color: #bfbfbf;
-      height: 30px;
-      width: 100%;
-      padding: 5px;
-    }
-   }
-  @media (min-width: $screen-md) {
-    font-size: 16px;
-   }
-}
-
-.wrapper-orangeheader {
-  @media (max-width: $screen-xs) {
-    h4 {
-      color: white;
-      background-color: $customGold;
-      height: 30px;
-      width: 100%;
-      padding: 5px;
-    }
-   }
-  @media (min-width: $screen-md) {
-    font-size: 16px;
-   }
+.uppercase {
+  text-transform: uppercase;
 }

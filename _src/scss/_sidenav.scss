@@ -14,10 +14,6 @@
   ul {
     padding-left: 70px;
   }
-  li {
-    padding-top: 2px;
-    padding-bottom: 2px;
-  }
 }
 
 .dropdownHeader {
@@ -42,10 +38,9 @@
   padding-top: 7px;
   margin: 5px;
   display: inline-block;
-}
-
-.header-tiles > p {
-  color: white;
-  padding-top: 3px;
-  font-size: 9px;
+  p {
+    color: white;
+    padding-top: 3px;
+    font-size: 9px;
+  }
 }
