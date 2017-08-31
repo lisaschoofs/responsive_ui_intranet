@@ -7,10 +7,18 @@
       width: 100%;
       padding: 5px;
     }
+    li {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      list-style-type: square;
+    }
    }
   @media (min-width: $screen-md) {
     font-size: 16px;
    }
+  //  span {
+  //    float: left;
+  //  }
 }
 
 .wrapper-orangeLinkList {
@@ -22,8 +30,16 @@
       width: 100%;
       padding: 5px;
     }
+    li {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      list-style-type: square;
+    }
    }
   @media (min-width: $screen-md) {
     font-size: 16px;
+   }
+   img {
+     float: left;
    }
 }

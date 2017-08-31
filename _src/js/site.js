@@ -11,4 +11,8 @@ function eventListeners() {
   $(".dropdownHeader").on('click', function(){
     $( ".sidenav" ).toggle( "slow" );
   });
+
+  // $(".recentlySigned").('click', function(){
+  //   $();
+  // })
 }

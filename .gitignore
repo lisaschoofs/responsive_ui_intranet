@@ -46,3 +46,4 @@ node_modules/
 **/vendor/
 
 /new.html
+/backup.html

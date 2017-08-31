@@ -153,3 +153,19 @@ a {
 .uppercase {
   text-transform: uppercase;
 }
+
+#twitter:hover {
+  color: $twitter;
+}
+
+#googlePlus:hover {
+  color: red;
+}
+
+#youtube:hover {
+  color: red;
+}
+
+#grayHeaderTile {
+  background-color: $customGray;
+}
