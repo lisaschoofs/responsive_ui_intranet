@@ -1,7 +1,14 @@
-.sitenav {
-  background-color: $customGray;
+.sidenav {
+  background-color: $sidenavLight;
+  width: 80%;
+}
+
+.sitenavList {
+  display: none;
+  background-color: $sidenavDark;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-bottom: 0px;
   li {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -10,13 +17,15 @@
 }
 
 .dropdown {
-  border-top: 1px solid $customGray;
-  border-bottom: 1px solid $customGray;
+  border-top: 1px solid $sidenavDark;
+  border-bottom: 1px solid $sidenavDark;
+  // background-color: $sidenavLight;
   padding-top: 3px;
   h4 {
     padding-left: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
+    // background-color: $sidenavLight;
     span {
       padding-right: 5px;
     }
@@ -29,16 +38,22 @@
 
 .dropdownHeader {
   padding: 20px;
-  border-bottom: 1px solid $customGray;
+  padding-left: 35px;
+  border-bottom: 1px solid $sidenavDark;
+}
+
+.dropdownBottom {
+  border-bottom: 2px solid $sidenavDark;
 }
 
 .icons {
+  display: none;
   height: 200px;
   padding: 15px;
   padding-left: 35px;
   padding-top: 25px;
   padding-right: 20px;
-  background-color: $customGray;
+  background-color: $sidenavDark;
 }
 
 .headerTiles {

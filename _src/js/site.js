@@ -1,9 +1,10 @@
 $(document).ready(function(){
-  eventListeners();
+  mainPageListeners();
+  sidenavListeners();
 });
 
 //Listeners for sideNav toggling
-function eventListeners() {
+function mainPageListeners() {
   $("#search").on('click', function(){
     $( ".searchBar").toggle();
   })
@@ -35,9 +36,20 @@ function eventListeners() {
     console.log('clicked upcomingEvents header!');
     $( ".upcomingEventsList" ).toggle( "fast" );
   });
+}
+
+function sidenavListeners() {
+  $(".sitenav").on('click', function() {
+    console.log('clicked sitenav! Huzzah!');
+    $(".sitenavList").toggle('fast');
+  });
+
+  $(".myLinks").on('click', function() {
+    console.log('clicked myLinks! Yaaaaas!');
+  });
 
   $(".shortcuts").on('click', function() {
-    console.log('clicked shortcuts! Booyah!');
-    // $(".headerTiles").toggle();
-  })
-}
+    console.log('clicked shortcuts! Awwww yeah.');
+    $(".icons").toggle('fast');
+  });
+};
