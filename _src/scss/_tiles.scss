@@ -27,12 +27,14 @@
 }
 
 .top {
-  background: url(http://via.placeholder.com/150X100) no-repeat center top;
+  // background: url(http://via.placeholder.com/150X100) no-repeat center top;
+  background: url(/tile-lg.jpg) no-repeat center top;
   background-size:cover;
 }
 
 .topLarge {
-  background: url(http://via.placeholder.com/500x300) no-repeat center top;
+  // background: url(http://via.placeholder.com/500x300) no-repeat center top;
+  background: url(/tile-lg.jpg) no-repeat center top;
   background-size:cover;
 }
 
@@ -42,7 +44,8 @@
   padding: 0px;
   margin: 0px;
   margin-bottom: 10px;
-  background: url(http://via.placeholder.com/150x150) no-repeat center top;
+  // background: url(http://via.placeholder.com/150x150) no-repeat center top;
+  background: url(/tile-md.jpg) no-repeat center top;
   background-size:cover;
 }
 
@@ -71,7 +74,7 @@
   vertical-align: bottom;
 }
 
-.small-newsTile {
+.smallNewsTile {
   h5 {
     margin-bottom: 0;
   }

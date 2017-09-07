@@ -9,6 +9,6 @@ Building out a responsive UI for mobile/tablet/desktop, working to match up with
 - CSS 3
 - Sass
 
-## Acknowledgemnts:
+## Acknowledgements:
 
 - Mike Boardley - Quickstart base project for HTML/CSS/Sass/Bootstrap

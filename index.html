@@ -39,32 +39,32 @@
             <li class="uppercase"><a href="#">Project Delivery</a></li>
           </ul>
         </div>
-        <div class="dropdown mylinks">
+        <div class="dropdown myLinks">
           <h4 class="uppercase"><span class="fa fa-caret-right"></span> My Links</h4>
         </div>
         <div class="dropdown shortcuts">
           <h4 class="uppercase"><span class="fa fa-caret-down"></span> Shortcuts</h4>
           <div class="icons">
-            <div class="directory header-tiles">
-              <span class="fa fa-users fa-3x"></span>
-              <p class="uppercase">Directory</p>
+            <div class="directory headerTiles">
+              <a><span class="fa fa-users fa-3x"></span>
+              <p class="uppercase">Directory</p></a>
               <!-- try link with 1 span for 'directory' & CSS< or link with 2 spans-->
             </div>
-            <div class="location header-tiles">
-              <span class="fa fa-map-marker fa-3x"></span>
-              <p class="uppercase">Location</p>
+            <div class="location headerTiles">
+              <a><span class="fa fa-map-marker fa-3x"></span>
+              <p class="uppercase">Location</p></a>
             </div>
-            <div class="entertime header-tiles">
-              <span class="fa fa-clock-o fa-3x"></span>
-              <p class="uppercase">Enter Time</p>
+            <div class="enterTime headerTiles">
+              <a><span class="fa fa-clock-o fa-3x"></span>
+              <p class="uppercase">Enter Time</p></a>
             </div>
-            <div class="travel header-tiles">
-              <span class="fa fa-plane fa-3x"></span>
-              <p class="uppercase">Travel</p>
+            <div class="travel headerTiles">
+              <a><span class="fa fa-plane fa-3x"></span>
+              <p class="uppercase">Travel</p></a>
             </div>
-            <div class="forms header-tiles">
-              <span class="fa fa-list fa-3x"></span>
-              <p class="uppercase">Forms</p>
+            <div class="forms headerTiles">
+              <a><span class="fa fa-list fa-3x"></span>
+              <p class="uppercase">Forms</p><a/>
             </div>
           </div> <!-- ENDS ICONS DIV -->
         </div>
@@ -75,19 +75,19 @@
         <div class="row">
           <div class="col-xs-12">
             <span id="logo">LOGO</span>
-            <div class="blueicon" id="sidemenu">
+            <div class="blueIcon" id="sidemenu">
               <span class="fa fa-bars fa-2x"></span>
             </div>
-            <div class="blueicon" id="search">
+            <div class="blueIcon" id="search">
               <span class="fa fa-search fa-2x"></span>
             </div>
           </div>
-          <div class="input-group col-md-2 col-md-offset-6 search">
+          <!-- <div class="input-group col-md-2 col-md-offset-6 searchBar">
               <input type="text" class="form-control" placeholder="Search">
               <span class="input-group-btn">
                 <button class="btn btn-default" type="button">GO</button>
               </span>
-          </div><!-- /input-group -->
+          </div> -->
         </div> <!-- ENDS ROW -->
       </div> <!-- ENDS CONTAINER FLUID -->
     </header>
@@ -120,7 +120,7 @@
         <!-- medium newsTile -->
         <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="wrapper medium-newsTile" id="orangeTile">
+          <div class="wrapper mediumNewsTile" id="orangeTile">
             <div class="left col-xs-4">
             </div>
             <div class="right col-xs-offset-8">
@@ -133,32 +133,32 @@
       </div> <!-- ROW END! -->
         <!-- small newsTile -->
         <div class="row">
-        <div class="col-xs-6 col-sm-3 col-md-2">
-          <div class="wrapper small-newsTile blueTile">
-            <div class="top image-block-small">
-            </div>
-            <div class="bottom">
-              <h5>The Latest News and Buzz on Company Projects</h5>
-              <p class="date">12/08/15</p>
-            </div>
-          </div>
-        </div>
-        <!-- small newsTile -->
-        <div class="col-xs-6 col-sm-3 col-md-2">
-          <div class="wrapper small-newsTile grayTile">
-            <div class="top image-block-small">
-            </div>
-            <div class="bottom">
-              <h5>The Latest News and Buzz on Company Projects</h5>
-              <p class="date">12/08/15</p>
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <div class="wrapper smallNewsTile blueTile">
+              <div class="top image-block-small">
+              </div>
+              <div class="bottom">
+                <h5>The Latest News and Buzz on Company Projects</h5>
+                <p class="date">12/08/15</p>
+              </div>
             </div>
           </div>
-        </div>
-              </div> <!-- ROW END! -->
+          <!-- small newsTile -->
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <div class="wrapper smallNewsTile grayTile">
+              <div class="top image-block-small">
+              </div>
+              <div class="bottom">
+                <h5>The Latest News and Buzz on Company Projects</h5>
+                <p class="date">12/08/15</p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- ROW END! -->
         <!-- medium newsTile -->
         <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="wrapper medium-newsTile grayTile">
+          <div class="wrapper mediumNewsTile grayTile">
             <div class="left col-xs-4">
             </div>
             <div class="right col-xs-offset:8">
@@ -171,109 +171,143 @@
                       </div> <!-- ROW END! -->
         <!-- medium newsTile -->
         <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="wrapper medium-newsTile lightGrayTile">
-            <div class="left col-xs-4">
-            </div>
-            <div class="right col-xs-offset:8">
-              <h4 class="uppercase">Company News</h4>
-              <h5>Tile Title Element</h5>
-              <p class="date mediumDate">12/08/15</p>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="wrapper mediumNewsTile lightGrayTile">
+              <div class="left col-xs-4">
+              </div>
+              <div class="right col-xs-offset:8">
+                <h4 class="uppercase">Company News</h4>
+                <h5>Tile Title Element</h5>
+                <p class="date mediumDate">12/08/15</p>
+              </div>
             </div>
           </div>
-        </div>
         </div> <!-- ROW END! -->
         <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="gray-linklist">
-              <h4 class="uppercase"><span class="fa fa-caret-right"></span> Market News</h4>
-              <ul>
-                <li><a href="#">Student Housing Heats Up in St. Louis - 10/27/14</a></li>
-                <li><a href="#">Company Selected as Developer for Seven - 10/25/14</a></li>
-                <li><a href="#">Minneapolis Leaders Welcome Downtown - 9/30/2014</a></li>
-              </ul>
-              <p>+ View More<p>
-          </div>
-        </div>
-      </div> <!-- ROW END! -->
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="gray-linklist">
-              <h4 class="uppercase"><span class="fa fa-caret-right"></span> Announcements</h4>
-              <ul>
-                <li><a href="#">Student Housing Heats Up in St. Louis - 10/27/14</a></li>
-                <li><a href="#">Company Selected as Developer for Seven - 10/25/14</a></li>
-                <li><a href="#">Minneapolis Leaders Welcome Downtown - 9/30/14</a></li>
-              </ul>
-              <p>+ View More<p>
-          </div>
-        </div>
-      </div> <!-- ENDS ROW! -->
-
-    <div class="row">
-    <div class="wrapper-orangeLinkList col-xs-12 col-sm-6 col-md-4">
-          <!-- ng repeat for news items... -->
-          <h4 class="uppercase">
-            <span class="fa fa-caret-down recentlySigned"></span> Recently Signed</h4>
-          <div>
-            <img src="http://via.placeholder.com/95X65">
-            <h5>Character Communication</h5>
-            <p>12/24/2014</p>
-            <p>Minneapolis, St Paul</p>
-          </div>
-          <div>
-            <img src="http://via.placeholder.com/95X65">
-            <h5>Character Communication</h5>
-            <p>12/24/2014</p>
-            <p>Minneapolis, St Paul</p>
-          </div>
-          <div>
-            <img src="http://via.placeholder.com/95X65">
-            <h5>Character Communication</h5>
-            <p>12/24/2014</p>
-            <p>Minneapolis, St Paul</p>
-          </div>
-          <div>
-            <img src="http://via.placeholder.com/95X65">
-            <h5>Character Communication</h5>
-            <p>12/24/2014</p>
-            <p>Minneapolis, St Paul</p>
-          </div>
-        </div>
-      </div> <!-- ENDS ROW -->
-      <div class="row">
-        <div class="wrapper-orangeLinkList col-xs-12 col-sm-6 col-md-4">
-          <h4 class="uppercase">
-            <span class="fa fa-caret-down"></span> Upcoming Events</h4>
-          <!-- would use an ng repeat for news items... -->
-          <div>
-            <div class="header-tiles" id="grayHeaderTile"></div>
-            <h5>Event Title Celebration Gala</h5>
-            <p>6:00 - 8:00pm</p>
-            <p>Minneapolis, MN</p>
-            <div class="header-tiles" id="grayHeaderTile"></div>
-            <h5>Event Title Celebration Gala</h5>
-            <p>6:00 - 8:00pm</p>
-            <p>Minneapolis, MN</p>
-            <div class="header-tiles" id="grayHeaderTile"></div>
-            <h5>Event Title Celebration Gala</h5>
-            <p>6:00 - 8:00pm</p>
-            <p>Minneapolis, MN</p>
-            <div class="header-tiles" id="grayHeaderTile"></div>
-            <h5>Event Title Celebration Gala</h5>
-            <p>6:00 - 8:00pm</p>
-            <p>Minneapolis, MN</p>
-          </div>
-        </div>
-      </div> <!-- ENDS ROW -->
-    </div> <!-- ENDS CONTAINER -->
-    <div class="container-fluid">
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="grayLinkList">
+                <h4 class="uppercase marketNews"><span class="fa fa-caret-right"></span> Market News</h4>
+                <div class="marketNewsList">
+                  <ul>
+                    <li><a href="#">Student Housing Heats Up in St. Louis - 10/27/14</a></li>
+                    <li><a href="#">Company Selected as Developer for Seven - 10/25/14</a></li>
+                    <li><a href="#">Minneapolis Leaders Welcome Downtown - 9/30/2014</a></li>
+                  </ul>
+                  <p class="viewMore"><a>+ View More</a><p>
+                </div>
+              </div>
+            </div>
+          </div> <!-- ROW END! -->
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="grayLinkList">
+                <h4 class="uppercase announcements"><span class="fa fa-caret-right"></span> Announcements</h4>
+                <div class="announcementsList">
+                  <ul>
+                    <li><a href="#">Student Housing Heats Up in St. Louis - 10/27/14</a></li>
+                    <li><a href="#">Company Selected as Developer for Seven - 10/25/14</a></li>
+                    <li><a href="#">Minneapolis Leaders Welcome Downtown - 9/30/14</a></li>
+                  </ul>
+                  <p class="viewMore"><a>+ View More</a><p>
+                </div>
+              </div>
+            </div>
+          </div> <!-- ENDS ROW! -->
+          <div class="row">
+            <div class="orangeLinkList col-xs-12 col-sm-6 col-md-4">
+              <!-- ng repeat for news items... -->
+              <h4 class="uppercase recentlySigned">
+                <span class="fa fa-caret-down"></span> Recently Signed</h4>
+              <div class="recentlySignedList">
+                <div>
+                  <img src="http://via.placeholder.com/95X65">
+                  <h5>Character Communications</h5>
+                  <p>12/24/2014</p>
+                  <p>Minneapolis, St Paul</p>
+                </div>
+                <div>
+                  <img src="http://via.placeholder.com/95X65">
+                  <h5>Character Communications</h5>
+                  <p>12/24/2014</p>
+                  <p>Minneapolis, St Paul</p>
+                </div>
+                <div>
+                  <img src="http://via.placeholder.com/95X65">
+                  <h5>Character Communications</h5>
+                  <p>12/24/2014</p>
+                  <p>Minneapolis, St Paul</p>
+                </div>
+                <div>
+                  <img class="recentlySigned" src="/tile-lg.jpg">
+                  <h5>Character Communications</h5>
+                  <p>12/24/2014</p>
+                  <p>Minneapolis, St Paul</p>
+                </div>
+              </div>
+            </div>
+          </div> <!-- ENDS ROW -->
+          <div class="row">
+            <div class="orangeLinkList col-xs-12 col-sm-6 col-md-4">
+              <h4 class="uppercase upcomingEvents">
+                <span class="fa fa-caret-down"></span> Upcoming Events</h4>
+              <!-- would use an ng repeat for news items... -->
+              <div class="upcomingEventsList">
+                <div class="upcomingEventItem">
+                  <div class="grayHeaderTile">
+                    <span class="eventDate">24</span>
+                    <span class="uppercase eventMonth">nov</span>
+                  </div>
+                  <span>
+                  <h5>Event Title Celebration Gala</h5>
+                  <p>6:00 - 8:00pm</p>
+                  <p>Minneapolis, MN</p>
+                  </span>
+                </div>
+                <div class="upcomingEventItem">
+                  <div class="grayHeaderTile">
+                    <span class="eventDate">24</span>
+                    <span class="uppercase eventMonth">nov</span>
+                  </div>
+                  <span>
+                    <h5>Event Title Celebration Gala</h5>
+                    <p>6:00 - 8:00pm</p>
+                    <p>Minneapolis, MN</p>
+                  </span>
+                </div>
+                <div class="upcomingEventItem">
+                  <div class="grayHeaderTile">
+                    <span class="eventDate">24</span>
+                    <span class="uppercase eventMonth">nov</span>
+                  </div>
+                  <span>
+                    <h5>Event Title Celebration Gala</h5>
+                    <p>6:00 - 8:00pm</p>
+                    <p>Minneapolis, MN</p>
+                  </span>
+                </div>
+                <div class="upcomingEventItem">
+                  <div class="grayHeaderTile">
+                    <span class="eventDate">24</span>
+                    <span class="uppercase eventMonth">nov</span>
+                  </div>
+                  <span>
+                    <h5>Event Title Celebration Gala</h5>
+                    <p>6:00 - 8:00pm</p>
+                    <p>Minneapolis, MN</p>
+                  </span>
+                </div>
+              </div> <!-- ENDS UPCOMING EVENTS LIST -->
+            </div>
+          </div> <!-- ENDS ROW -->
+        </div> <!-- ENDS CONTAINER -->
+    <!-- <div class="container-fluid"> -->
       <div class="skyline">
-        <p>(whoa, sweet skyline image!)</p>
+        <img class="skylineImage" src="minneapolis_skyline_5415.png">
       </div>
-    </div>
+      <div class="filler"></div>
+    <!-- </div> -->
     <!-- FOOTER -->
-    <footer class="container-fluid page-bottom">
+    <footer class="container-fluid pageBottom">
       <div class="row social">
         <div class="col-xs-12 col-sm-6 col-md-4 links">
           <!-- <span>FEEDBACK</span>

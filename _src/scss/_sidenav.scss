@@ -35,18 +35,19 @@
 .icons {
   height: 200px;
   padding: 15px;
-  // padding-left: 40px;
+  padding-left: 35px;
+  padding-top: 25px;
   padding-right: 20px;
   background-color: $customGray;
 }
 
-.header-tiles {
-  height: 70px;
-  width: 70px;
+.headerTiles {
+  height: 65px;
+  width: 65px;
   background-color: $customGold;
   text-align: center;
   padding: 2px;
-  padding-top: 7px;
+  padding-top: 6px;
   margin: 5px;
   display: inline-block;
   p {
@@ -54,4 +55,11 @@
     padding-top: 3px;
     font-size: 9px;
   }
+  // a {
+  //   color: white;
+  // }
 }
+
+// .shortcuts {
+//   display: hidden;
+// }
