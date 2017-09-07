@@ -106,7 +106,7 @@
       <div class="row">
         <div id="topline"></div>
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="wrapper newsTile" id="newsTile">
+          <div class="wrapper newsTile">
             <div class="topLarge image-block">
             </div>
             <div class="bottom">
@@ -119,21 +119,21 @@
       </div> <!-- ROW END! -->
         <!-- medium newsTile -->
         <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="wrapper mediumNewsTile" id="orangeTile">
-            <div class="left col-xs-4">
-            </div>
-            <div class="right col-xs-offset-8">
-              <h4 class="uppercase">CEO's Corner</h4>
-              <h5>Tile Title Element</h5>
-              <p class="date mediumDate">12/08/15</p>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="wrapper mediumNewsTile orangeTile">
+              <div class="left col-xs-4">
+              </div>
+              <div class="right col-xs-offset-8">
+                <h4 class="uppercase">CEO's Corner</h4>
+                <h5>Tile Title Element</h5>
+                <p class="date mediumDate">12/08/15</p>
+              </div>
             </div>
           </div>
-        </div>
-      </div> <!-- ROW END! -->
+        </div> <!-- ROW END! -->
         <!-- small newsTile -->
         <div class="row">
-          <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="col-xs-6 col-sm-3 col-md-2 leftTileColumn">
             <div class="wrapper smallNewsTile blueTile">
               <div class="top image-block-small">
               </div>
@@ -144,7 +144,7 @@
             </div>
           </div>
           <!-- small newsTile -->
-          <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="col-xs-6 col-sm-3 col-md-2 rightTileColumn">
             <div class="wrapper smallNewsTile grayTile">
               <div class="top image-block-small">
               </div>
@@ -172,7 +172,7 @@
         <!-- medium newsTile -->
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="wrapper mediumNewsTile lightGrayTile">
+            <div class="wrapper mediumNewsTile lightGrayTile bottomTile">
               <div class="left col-xs-4">
               </div>
               <div class="right col-xs-offset:8">
@@ -220,25 +220,25 @@
                 <span class="fa fa-caret-down"></span> Recently Signed</h4>
               <div class="recentlySignedList">
                 <div>
-                  <img src="http://via.placeholder.com/95X65">
+                  <img src="/tile-lg.jpg">
                   <h5>Character Communications</h5>
                   <p>12/24/2014</p>
                   <p>Minneapolis, St Paul</p>
                 </div>
                 <div>
-                  <img src="http://via.placeholder.com/95X65">
+                  <img src="/tile-lg.jpg">
                   <h5>Character Communications</h5>
                   <p>12/24/2014</p>
                   <p>Minneapolis, St Paul</p>
                 </div>
                 <div>
-                  <img src="http://via.placeholder.com/95X65">
+                  <img src="/tile-lg.jpg">
                   <h5>Character Communications</h5>
                   <p>12/24/2014</p>
                   <p>Minneapolis, St Paul</p>
                 </div>
                 <div>
-                  <img class="recentlySigned" src="/tile-lg.jpg">
+                  <img src="/tile-lg.jpg">
                   <h5>Character Communications</h5>
                   <p>12/24/2014</p>
                   <p>Minneapolis, St Paul</p>
@@ -249,7 +249,7 @@
           <div class="row">
             <div class="orangeLinkList col-xs-12 col-sm-6 col-md-4">
               <h4 class="uppercase upcomingEvents">
-                <span class="fa fa-caret-down"></span> Upcoming Events</h4>
+              <span class="fa fa-caret-down"></span> Upcoming Events</h4>
               <!-- would use an ng repeat for news items... -->
               <div class="upcomingEventsList">
                 <div class="upcomingEventItem">
@@ -258,9 +258,9 @@
                     <span class="uppercase eventMonth">nov</span>
                   </div>
                   <span>
-                  <h5>Event Title Celebration Gala</h5>
-                  <p>6:00 - 8:00pm</p>
-                  <p>Minneapolis, MN</p>
+                    <h5>Event Title Celebration Gala</h5>
+                    <p>6:00 - 8:00pm</p>
+                    <p>Minneapolis, MN</p>
                   </span>
                 </div>
                 <div class="upcomingEventItem">
@@ -300,12 +300,11 @@
             </div>
           </div> <!-- ENDS ROW -->
         </div> <!-- ENDS CONTAINER -->
-    <!-- <div class="container-fluid"> -->
+    <!-- Elements below are containerless... -->
       <div class="skyline">
         <img class="skylineImage" src="minneapolis_skyline_5415.png">
       </div>
       <div class="filler"></div>
-    <!-- </div> -->
     <!-- FOOTER -->
     <footer class="container-fluid pageBottom">
       <div class="row social">
