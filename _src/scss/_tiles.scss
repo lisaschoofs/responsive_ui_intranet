@@ -21,20 +21,34 @@
 .orangeTile {
   background-color: $customGold;
   color: white;
-  margin-bottom: 20px;
-  // font-family: "univers";
+}
+
+.blueTile {
+  background-color: $customBlue;
+  color: white;
+}
+
+.grayTile {
+  background-color: $customGray;
+  color: white;
+}
+
+.lightGrayTile {
+  background-color: $mediumBlue;
+  color: white;
 }
 
 .top {
   // background: url(http://via.placeholder.com/150X100) no-repeat center top;
   background: url(/tile-lg.jpg) no-repeat center top;
-  background-size:cover;
+  background-size: cover;
 }
 
 .topLarge {
   // background: url(http://via.placeholder.com/500x300) no-repeat center top;
   background: url(/tile-lg.jpg) no-repeat center top;
-  background-size:cover;
+  background-size: cover;
+  // background-position: center;
 }
 
 .left {
@@ -53,23 +67,22 @@
   // text-align: center;
   height: 150px;
   padding-left: 150px;
-  padding-top: 1px;
+  padding-top: 7px;
   margin-left: 10px;
   clear: right;
 }
 
-.image-block {
+.imageBlock {
   padding: 0px;
   margin: 0px;
   height:200px;
   vertical-align: bottom;
 }
 
-.image-block-small {
+.imageBlockSmall {
   padding: 0px;
   margin: 0px;
   height:100px;
-  // text-align: center;
   vertical-align: bottom;
 }
 
@@ -84,7 +97,7 @@
   // float: left;
   // height: 500px;
   // width: 500px;
-  padding-left: 6px;
+  padding-left: 10px;
 }
 
 .leftTileColumn {
@@ -97,4 +110,9 @@
 
 .bottomTile {
   margin-bottom: 0px;
+}
+
+.tileTitle {
+  //Just pulled something from a color picker...
+  color: #ededed;
 }

@@ -57,21 +57,17 @@
   height: 65px;
   width: 65px;
   background-color: $customGray;
-  text-align: center;
-  padding: 2px;
-  padding-top: 6px;
+  // text-align: center;
+  // padding: 2px;
+  // padding-top: 6px;
   margin: 5px;
   display: inline-block;
   color: white;
-  p {
-    color: white;
-    padding-top: 3px;
-    font-size: 9px;
-  }
   .eventDate {
     float: right;
     clear: both;
     font-size: 30px;
+    padding-bottom: 0px;
     padding-right: 5px;
   }
   .eventMonth {

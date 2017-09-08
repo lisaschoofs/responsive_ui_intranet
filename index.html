@@ -4,6 +4,7 @@
   <head>
     <meta charset="UTF-8">
   	<title>Sweet Intranet Site.</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   	<link rel="stylesheet" href="css/style.css">
   	<script src="js/theme.js"></script>
@@ -12,8 +13,8 @@
     <div class="container-fluid">
       <div class="row sidenav">
         <div class="dropdownHeader">
-          <h4 class="uppercase">ONET Menu</h4>
-          <!-- <span>❭</span> -->
+          <h4 class="uppercase">ONET Menu <span class="fa fa-angle-right"></span></h4>
+
         </div>
 
         <!-- <ul>
@@ -30,7 +31,7 @@
             </ul> -->
 
         <div class="dropdown">
-          <h4 class="uppercase sitenav"><span class="fa fa-caret-down"></span> Site Navigation</h4>
+          <h4 class="uppercase sitenav"><span class="triangle triangleRotate"></span> Site Navigation</h4>
           <ul class="sitenavList">
             <li class="uppercase"><a href="#">Home</a></li>
             <li class="uppercase"><a href="#">Departments</a></li>
@@ -40,10 +41,11 @@
           </ul>
         </div>
         <div class="dropdown myLinks">
-          <h4 class="uppercase"><span class="fa fa-caret-right"></span> My Links</h4>
+          <h4 class="uppercase"><span class="triangle triangleRotate"></span> My Links</h4>
+          <!-- <h4 class="uppercase"><span class="caret"></span> My Links</h4> -->
         </div>
-        <div class="dropdown shortcuts dropdownBottom">
-          <h4 class="uppercase"><span class="fa fa-caret-down"></span> Shortcuts</h4>
+        <div class="dropdown dropdownBottom">
+          <h4 class="uppercase shortcuts"><span class="triangle triangleRotate"></span> Shortcuts</h4>
           <div class="icons">
             <div class="directory headerTiles">
               <a><span class="fa fa-users fa-3x"></span>
@@ -69,7 +71,7 @@
           </div> <!-- ENDS ICONS DIV -->
         </div>
       </div>
-    </div>
+    </div> <!-- ENDS CONTAINER FLUID -->
     <header>
       <div class="container-fluid">
         <div class="row">
@@ -107,10 +109,10 @@
         <div id="topline"></div>
         <div class="col-xs-12 col-sm-6 col-md-4">
           <div class="wrapper newsTile">
-            <div class="topLarge image-block">
+            <div class="topLarge imageBlock">
             </div>
             <div class="bottom">
-              <h3 class="uppercase">Company News</h3>
+              <h3 class="uppercase tileTitle">Company News</h3>
               <h4>Military Service Provided Excellent Professional Training for Company Employee</h4>
               <p class="date">12/08/15</p>
             </div>
@@ -118,67 +120,82 @@
         </div> <!-- ENDS col -->
       </div> <!-- ROW END! -->
         <!-- medium newsTile -->
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="wrapper mediumNewsTile orangeTile">
-              <div class="left col-xs-4">
-              </div>
-              <div class="right col-xs-offset-8">
-                <h4 class="uppercase">CEO's Corner</h4>
-                <h5>Tile Title Element</h5>
-                <p class="date mediumDate">12/08/15</p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- ROW END! -->
-        <!-- small newsTile -->
-        <div class="row">
-          <div class="col-xs-6 col-sm-3 col-md-2 leftTileColumn">
-            <div class="wrapper smallNewsTile blueTile">
-              <div class="top image-block-small">
-              </div>
-              <div class="bottom">
-                <h5>The Latest News and Buzz on Company Projects</h5>
-                <p class="date">12/08/15</p>
-              </div>
-            </div>
-          </div>
-          <!-- small newsTile -->
-          <div class="col-xs-6 col-sm-3 col-md-2 rightTileColumn">
-            <div class="wrapper smallNewsTile grayTile">
-              <div class="top image-block-small">
-              </div>
-              <div class="bottom">
-                <h5>The Latest News and Buzz on Company Projects</h5>
-                <p class="date">12/08/15</p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- ROW END! -->
-        <!-- medium newsTile -->
-        <div class="row">
+      <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="wrapper mediumNewsTile grayTile">
+          <div class="wrapper mediumNewsTile orangeTile">
             <div class="left col-xs-4">
             </div>
-            <div class="right col-xs-offset:8">
-              <h4 class="uppercase">Company News</h4>
+            <div class="right col-xs-offset-8">
+              <h4 class="uppercase tileTitle">CEO's Corner</h4>
               <h5>Tile Title Element</h5>
               <p class="date mediumDate">12/08/15</p>
             </div>
           </div>
         </div>
-                      </div> <!-- ROW END! -->
-        <!-- medium newsTile -->
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="wrapper mediumNewsTile lightGrayTile bottomTile">
-              <div class="left col-xs-4">
-              </div>
-              <div class="right col-xs-offset:8">
-                <h4 class="uppercase">Company News</h4>
-                <h5>Tile Title Element</h5>
-                <p class="date mediumDate">12/08/15</p>
+      </div> <!-- ROW END! -->
+      <!-- small newsTile -->
+      <div class="row">
+        <div class="col-xs-6 col-sm-3 col-md-2 leftTileColumn">
+          <div class="wrapper smallNewsTile blueTile">
+            <div class="top imageBlockSmall">
+            </div>
+            <div class="bottom">
+              <h5>The Latest News and Buzz on Company Projects</h5>
+              <p class="date">12/08/15</p>
+            </div>
+          </div>
+        </div>
+        <!-- small newsTile -->
+        <div class="col-xs-6 col-sm-3 col-md-2 rightTileColumn">
+          <div class="wrapper smallNewsTile grayTile">
+            <div class="top imageBlockSmall">
+            </div>
+            <div class="bottom">
+              <h5>The Latest News and Buzz on Company Projects</h5>
+              <p class="date">12/08/15</p>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ROW END! -->
+      <!-- medium newsTile -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="wrapper mediumNewsTile grayTile">
+            <div class="left col-xs-4">
+            </div>
+            <div class="right col-xs-offset:8">
+              <h4 class="uppercase tileTitle">Company News</h4>
+              <h5>Tile Title Element</h5>
+              <p class="date mediumDate">12/08/15</p>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ROW END! -->
+      <!-- medium newsTile -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="wrapper mediumNewsTile lightGrayTile bottomTile">
+            <div class="left col-xs-4">
+            </div>
+            <div class="right col-xs-offset:8">
+              <h4 class="uppercase tileTitle">Company News</h4>
+              <h5>Tile Title Element</h5>
+              <p class="date mediumDate">12/08/15</p>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ROW END! -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="grayLinkList">
+              <h4 class="uppercase marketNews"><span class="triangle triangleRotate"></span> Market News</h4>
+              <div class="marketNewsList">
+                <ul>
+                  <li><a href="#">Student Housing Heats Up in St. Louis - 10/27/14</a></li>
+                  <li><a href="#">Company Selected as Developer for Seven - 10/25/14</a></li>
+                  <li><a href="#">Minneapolis Leaders Welcome Downtown - 9/30/2014</a></li>
+                </ul>
+                <p class="viewMore"><a>+ View More</a><p>
               </div>
             </div>
           </div>
@@ -186,120 +203,105 @@
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="grayLinkList">
-                <h4 class="uppercase marketNews"><span class="fa fa-caret-right"></span> Market News</h4>
-                <div class="marketNewsList">
-                  <ul>
-                    <li><a href="#">Student Housing Heats Up in St. Louis - 10/27/14</a></li>
-                    <li><a href="#">Company Selected as Developer for Seven - 10/25/14</a></li>
-                    <li><a href="#">Minneapolis Leaders Welcome Downtown - 9/30/2014</a></li>
-                  </ul>
-                  <p class="viewMore"><a>+ View More</a><p>
-                </div>
+              <h4 class="uppercase announcements"><span class="triangle triangleRotate"></span> Announcements</h4>
+              <div class="announcementsList">
+                <ul>
+                  <li><a href="#">Student Housing Heats Up in St. Louis - 10/27/14</a></li>
+                  <li><a href="#">Company Selected as Developer for Seven - 10/25/14</a></li>
+                  <li><a href="#">Minneapolis Leaders Welcome Downtown - 9/30/14</a></li>
+                </ul>
+                <p class="viewMore"><a>+ View More</a><p>
               </div>
             </div>
-          </div> <!-- ROW END! -->
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="grayLinkList">
-                <h4 class="uppercase announcements"><span class="fa fa-caret-right"></span> Announcements</h4>
-                <div class="announcementsList">
-                  <ul>
-                    <li><a href="#">Student Housing Heats Up in St. Louis - 10/27/14</a></li>
-                    <li><a href="#">Company Selected as Developer for Seven - 10/25/14</a></li>
-                    <li><a href="#">Minneapolis Leaders Welcome Downtown - 9/30/14</a></li>
-                  </ul>
-                  <p class="viewMore"><a>+ View More</a><p>
-                </div>
+          </div>
+        </div> <!-- ENDS ROW! -->
+        <div class="row">
+          <div class="orangeLinkList col-xs-12 col-sm-6 col-md-4">
+            <!-- ng repeat for news items... -->
+            <h4 class="uppercase recentlySigned">
+              <span class="triangle triangleRotate"></span> Recently Signed</h4>
+            <div class="recentlySignedList">
+              <div>
+                <img src="/tile-lg.jpg">
+                <h5>Character Communications</h5>
+                <p>12/24/2014</p>
+                <p>Minneapolis, St Paul</p>
+              </div>
+              <div>
+                <img src="/tile-lg.jpg">
+                <h5>Character Communications</h5>
+                <p>12/24/2014</p>
+                <p>Minneapolis, St Paul</p>
+              </div>
+              <div>
+                <img src="/tile-lg.jpg">
+                <h5>Character Communications</h5>
+                <p>12/24/2014</p>
+                <p>Minneapolis, St Paul</p>
+              </div>
+              <div>
+                <img src="/tile-lg.jpg">
+                <h5>Character Communications</h5>
+                <p>12/24/2014</p>
+                <p>Minneapolis, St Paul</p>
               </div>
             </div>
-          </div> <!-- ENDS ROW! -->
-          <div class="row">
-            <div class="orangeLinkList col-xs-12 col-sm-6 col-md-4">
-              <!-- ng repeat for news items... -->
-              <h4 class="uppercase recentlySigned">
-                <span class="fa fa-caret-down"></span> Recently Signed</h4>
-              <div class="recentlySignedList">
-                <div>
-                  <img src="/tile-lg.jpg">
-                  <h5>Character Communications</h5>
-                  <p>12/24/2014</p>
-                  <p>Minneapolis, St Paul</p>
+          </div>
+        </div> <!-- ENDS ROW -->
+        <div class="row">
+          <div class="orangeLinkList col-xs-12 col-sm-6 col-md-4">
+            <h4 class="uppercase upcomingEvents">
+            <span class="triangle triangleRotate"></span> Upcoming Events</h4>
+            <!-- would use an ng repeat for news items... -->
+            <div class="upcomingEventsList">
+              <div class="upcomingEventItem">
+                <div class="grayHeaderTile">
+                  <span class="eventDate">24</span>
+                  <span class="uppercase eventMonth">nov</span>
                 </div>
-                <div>
-                  <img src="/tile-lg.jpg">
-                  <h5>Character Communications</h5>
-                  <p>12/24/2014</p>
-                  <p>Minneapolis, St Paul</p>
-                </div>
-                <div>
-                  <img src="/tile-lg.jpg">
-                  <h5>Character Communications</h5>
-                  <p>12/24/2014</p>
-                  <p>Minneapolis, St Paul</p>
-                </div>
-                <div>
-                  <img src="/tile-lg.jpg">
-                  <h5>Character Communications</h5>
-                  <p>12/24/2014</p>
-                  <p>Minneapolis, St Paul</p>
-                </div>
+                <span>
+                  <h5>Event Title Celebration Gala</h5>
+                  <p>6:00 - 8:00pm</p>
+                  <p>Minneapolis, MN</p>
+                </span>
               </div>
-            </div>
-          </div> <!-- ENDS ROW -->
-          <div class="row">
-            <div class="orangeLinkList col-xs-12 col-sm-6 col-md-4">
-              <h4 class="uppercase upcomingEvents">
-              <span class="fa fa-caret-down"></span> Upcoming Events</h4>
-              <!-- would use an ng repeat for news items... -->
-              <div class="upcomingEventsList">
-                <div class="upcomingEventItem">
-                  <div class="grayHeaderTile">
-                    <span class="eventDate">24</span>
-                    <span class="uppercase eventMonth">nov</span>
-                  </div>
-                  <span>
-                    <h5>Event Title Celebration Gala</h5>
-                    <p>6:00 - 8:00pm</p>
-                    <p>Minneapolis, MN</p>
-                  </span>
+              <div class="upcomingEventItem">
+                <div class="grayHeaderTile">
+                  <span class="eventDate">24</span>
+                  <span class="uppercase eventMonth">nov</span>
                 </div>
-                <div class="upcomingEventItem">
-                  <div class="grayHeaderTile">
-                    <span class="eventDate">24</span>
-                    <span class="uppercase eventMonth">nov</span>
-                  </div>
-                  <span>
-                    <h5>Event Title Celebration Gala</h5>
-                    <p>6:00 - 8:00pm</p>
-                    <p>Minneapolis, MN</p>
-                  </span>
+                <span>
+                  <h5>Event Title Celebration Gala</h5>
+                  <p>6:00 - 8:00pm</p>
+                  <p>Minneapolis, MN</p>
+                </span>
+              </div>
+              <div class="upcomingEventItem">
+                <div class="grayHeaderTile">
+                  <span class="eventDate">24</span>
+                  <span class="uppercase eventMonth">nov</span>
                 </div>
-                <div class="upcomingEventItem">
-                  <div class="grayHeaderTile">
-                    <span class="eventDate">24</span>
-                    <span class="uppercase eventMonth">nov</span>
-                  </div>
-                  <span>
-                    <h5>Event Title Celebration Gala</h5>
-                    <p>6:00 - 8:00pm</p>
-                    <p>Minneapolis, MN</p>
-                  </span>
+                <span>
+                  <h5>Event Title Celebration Gala</h5>
+                  <p>6:00 - 8:00pm</p>
+                  <p>Minneapolis, MN</p>
+                </span>
+              </div>
+              <div class="upcomingEventItem">
+                <div class="grayHeaderTile">
+                  <span class="eventDate">24</span>
+                  <span class="uppercase eventMonth">nov</span>
                 </div>
-                <div class="upcomingEventItem">
-                  <div class="grayHeaderTile">
-                    <span class="eventDate">24</span>
-                    <span class="uppercase eventMonth">nov</span>
-                  </div>
-                  <span>
-                    <h5>Event Title Celebration Gala</h5>
-                    <p>6:00 - 8:00pm</p>
-                    <p>Minneapolis, MN</p>
-                  </span>
-                </div>
-              </div> <!-- ENDS UPCOMING EVENTS LIST -->
-            </div>
-          </div> <!-- ENDS ROW -->
-        </div> <!-- ENDS CONTAINER -->
+                <span>
+                  <h5>Event Title Celebration Gala</h5>
+                  <p>6:00 - 8:00pm</p>
+                  <p>Minneapolis, MN</p>
+                </span>
+              </div>
+            </div> <!-- ENDS UPCOMING EVENTS LIST -->
+          </div>
+        </div> <!-- ENDS ROW -->
+      </div> <!-- ENDS CONTAINER -->
     <!-- Elements below are containerless... -->
       <div class="skyline">
         <img class="skylineImage" src="minneapolis_skyline_5415.png">
@@ -312,9 +314,9 @@
           <!-- <span>FEEDBACK</span>
           <span>SUPPORT</span>
           <span>COMPANY-GROUP.COM</span> -->
-          <p class="uppercase">Feedback</p>
-          <p class="uppercase">Support</p>
-          <p class="uppercase">company-group.com</p>
+          <a><p class="uppercase">Feedback</p></a>
+          <a><p class="uppercase">Support</p></a>
+          <a><p class="uppercase">company-group.com</p></a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 socialIcons">
           <a href="#" class="fa fa-google-plus-square fa-3x" id="googlePlus"></a>

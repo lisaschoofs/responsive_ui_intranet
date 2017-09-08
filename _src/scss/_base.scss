@@ -4,6 +4,7 @@
 
 body {
   color: $customGray;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -33,7 +34,7 @@ header {
 }
 
 .mediumDate {
-    padding-top: 55px;
+    padding-top: 50px;
     // THIS WILL BREAK BASED ON TEXT ABOVE...
 }
 
@@ -58,21 +59,6 @@ header {
   text-align: center;
   padding: 8px;
   padding-top: 10px;
-}
-
-.blueTile {
-  background-color: $customBlue;
-  color: white;
-}
-
-.grayTile {
-  background-color: $customGray;
-  color: white;
-}
-
-.lightGrayTile {
-  background-color: $mediumBlue;
-  color: white;
 }
 
 nav li {
@@ -159,8 +145,11 @@ a {
 }
 
 .links {
-  color: $customGold;
   padding-left: 25px;
+  p {
+    color: $customGold;
+    font-weight: 800;
+  }
 }
 
 .uppercase {
@@ -177,4 +166,25 @@ a {
 
 #youtube:hover {
   color: red;
+}
+
+.triangle:before {
+   font-family: FontAwesome;
+   content: "\f0da";
+   display: inline-block;
+   padding-right: 5px;
+   vertical-align: middle;
+}
+
+.triangleRotate:before {
+    -moz-transition: all .25s linear;
+    -webkit-transition: all .25s linear;
+    transition: all .25s linear;
+}
+
+.triangleRotate.down:before {
+    -ms-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
 }
