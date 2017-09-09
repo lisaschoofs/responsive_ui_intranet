@@ -13,7 +13,7 @@
     <div class="container-fluid">
       <div class="row sidenav">
         <div class="dropdownHeader">
-          <h4 class="uppercase">ONET Menu <span class="fa fa-angle-right"></span></h4>
+          <h4 class="uppercase">ONET Menu <span class="fa fa-angle-right menuCloseButton"></span></h4>
 
         </div>
 
@@ -94,16 +94,17 @@
       </div> <!-- ENDS CONTAINER FLUID -->
     </header>
 <!-- ENDS HEADER -->
-<!-- original nav for full desktop -->
-    <!-- <nav>
+<!-- nav for full desktop -->
+    <nav class="desktopNav">
       <ul class="nav navbar-default">
-        <li><a href="#">DEPARTMENTS</a></li>
-        <li><a href="#">TOOLS</a></li>
-        <li><a href="#">ASSOCIATE CENTER</a></li>
-        <li><a href="#">PROJECT DELIVERY</a></li>
+        <li>DEPARTMENTS</li>
+        <li>TOOLS</li>
+        <li>ASSOCIATE CENTER</li>
+        <li>PROJECT DELIVERY</li>
+        <li></li>
         <li id="welcome">Welcome, {{user.name}}</li>
       </ul>
-    </nav> -->
+    </nav>
     <div class="container page-body">
       <div class="row">
         <div id="topline"></div>
@@ -311,12 +312,11 @@
     <footer class="container-fluid pageBottom">
       <div class="row social">
         <div class="col-xs-12 col-sm-6 col-md-4 links">
-          <!-- <span>FEEDBACK</span>
-          <span>SUPPORT</span>
-          <span>COMPANY-GROUP.COM</span> -->
-          <a><p class="uppercase">Feedback</p></a>
-          <a><p class="uppercase">Support</p></a>
-          <a><p class="uppercase">company-group.com</p></a>
+          <ul>
+            <li class="uppercase"><a>Feedback</a></li>
+            <a><li class="uppercase">Support</li></a>
+            <a><li class="uppercase">company-group.com</li></a>
+          </ul>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 socialIcons">
           <a href="#" class="fa fa-google-plus-square fa-3x" id="googlePlus"></a>

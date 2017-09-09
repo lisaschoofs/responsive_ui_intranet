@@ -7,12 +7,10 @@ $(document).ready(function(){
 function mainPageListeners() {
   $("#search").on('click', function(){
     $( ".searchBar").toggle();
-    $(this).children().last().toggleClass("down");
   })
 
   $("#sidemenu").on('click', function(){
     $( ".sidenav" ).toggle( "slow" );
-    $(this).children().last().toggleClass("down");
   });
 
   $(".dropdownHeader").on('click', function(){
@@ -65,6 +63,6 @@ function sidenavListeners() {
 // function caretRotate() {
 //   $(".triangleRotate").click(function(){
 //     $(this).toggleClass("down");
-//     console.log('MOVE! THAT! CARET!');
+    // console.log('MOVE! THAT! CARET!');
 //   });
 // }

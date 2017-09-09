@@ -1,6 +1,11 @@
 .sidenav {
   background-color: $sidenavLight;
   width: 90%;
+  height: 100%;
+  display: none;
+  color: white;
+  position: fixed;
+  z-index: 1;
 }
 
 .sitenavList {

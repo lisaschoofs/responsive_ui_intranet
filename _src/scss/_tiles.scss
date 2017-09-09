@@ -16,11 +16,21 @@
 
 .mediumNewsTile {
   margin-bottom: 20px;
+  h4 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  h5 {
+    font-size: 16px;
+  }
 }
 
 .orangeTile {
   background-color: $customGold;
   color: white;
+  h4 {
+    // font-weight: 400;
+  }
 }
 
 .blueTile {
@@ -98,6 +108,19 @@
   // height: 500px;
   // width: 500px;
   padding-left: 10px;
+}
+
+.date {
+  font-size: 10px;
+  color: $newlightGray;
+  text-align: right;
+  padding-right: 8px;
+  padding-bottom: 10px;
+}
+
+.mediumDate {
+    padding-top: 50px;
+    // THIS WILL BREAK BASED ON TEXT ABOVE...
 }
 
 .leftTileColumn {

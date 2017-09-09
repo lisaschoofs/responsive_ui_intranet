@@ -1,0 +1,20 @@
+.triangle:before {
+   font-family: FontAwesome;
+   content: "\f0da";
+   display: inline-block;
+   padding-right: 5px;
+   vertical-align: middle;
+}
+
+.triangleRotate:before {
+    -moz-transition: all .25s linear;
+    -webkit-transition: all .25s linear;
+    transition: all .25s linear;
+}
+
+.triangleRotate.down:before {
+    -ms-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}

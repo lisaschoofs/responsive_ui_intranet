@@ -90,6 +90,9 @@
   div {
       float: left;
   }
+  h5 {
+    font-weight: bold;
+  }
   clear: both;
 }
 
@@ -99,5 +102,8 @@
     width: 32%;
     max-height: 100px;
     max-width: 150px;
+  }
+  h5 {
+    font-weight: bold;
   }
 }
