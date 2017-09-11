@@ -12,7 +12,9 @@
       padding-top: 5px;
       padding-bottom: 5px;
       padding-right: 20px;
+      padding-left: 0px;
       list-style-type: square;
+      font-size: 12px;
     }
     a {
       color: $customGray;
@@ -78,8 +80,10 @@
 }
 
 //HIDES LISTS ON PAGE LOAD
-.announcementsList, .marketNewsList, .recentlySignedList, .upcomingEventsList  {
-  display: none;
+@media (max-width: $screen-sm) {
+  .announcementsList, .marketNewsList, .recentlySignedList, .upcomingEventsList  {
+    display: none;
+  }
 }
 
 .upcomingEventItem {

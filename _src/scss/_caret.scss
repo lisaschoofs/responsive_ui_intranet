@@ -1,9 +1,11 @@
 .triangle:before {
-   font-family: FontAwesome;
-   content: "\f0da";
-   display: inline-block;
-   padding-right: 5px;
-   vertical-align: middle;
+  @media (max-width: $screen-sm) {
+    font-family: FontAwesome;
+    content: "\f0da";
+    display: inline-block;
+    padding-right: 5px;
+    vertical-align: middle;
+   }
 }
 
 .triangleRotate:before {

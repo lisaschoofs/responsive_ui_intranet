@@ -19,25 +19,21 @@ function mainPageListeners() {
   });
 
   $(".marketNews").on('click', function(){
-    console.log('clicked header!');
     $( ".marketNewsList" ).toggle( "fast" );
     $(this).children().last().toggleClass("down");
   });
 
   $(".announcements").on('click', function(){
-    console.log('clicked header!');
     $( ".announcementsList" ).toggle( "fast" );
     $(this).children().last().toggleClass("down");
   });
 
   $(".recentlySigned").on('click', function(){
-    console.log('clicked recentlySigned header!');
     $( ".recentlySignedList" ).toggle( "fast" );
     $(this).children().last().toggleClass("down");
   });
 
   $(".upcomingEvents").on('click', function(){
-    console.log('clicked upcomingEvents header!');
     $( ".upcomingEventsList" ).toggle( "fast" );
     $(this).children().last().toggleClass("down");
   });
