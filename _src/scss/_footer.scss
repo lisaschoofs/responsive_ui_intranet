@@ -3,7 +3,7 @@
 }
 
 .links {
-  padding-left: 25px;
+  // padding-left: 25px;
   p {
     color: $customGold;
     font-weight: 800;
@@ -69,6 +69,10 @@ footer {
   width: 100%;
   padding-left: 30px;
   padding-right: 30px;
+  @media (min-width: $screen-sm) {
+    width: 50%;
+    margin-left: 48%;
+   }
 }
 
 #twitter:hover {

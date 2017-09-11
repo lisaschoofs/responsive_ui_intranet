@@ -17,18 +17,12 @@ header {
 }
 
 #topline {
-  @media (max-width: $screen-md) {
     margin-top: 10px;
     background-color: $customGold;
     height: 3px;
-   }
-  @media (min-width: $screen-md) {
+  @media (min-width: $screen-sm) {
     display: none;
    }
-  @media (min-width: $screen-lg) {
-    display: none;
-   }
-
 }
 
 .blueIcon {
