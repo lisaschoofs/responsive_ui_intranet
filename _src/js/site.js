@@ -7,6 +7,7 @@ $(document).ready(function(){
 function mainPageListeners() {
   $("#search").on('click', function(){
     $( ".searchBar").toggle();
+    console.log('search!');
   })
 
   $("#sidemenu").on('click', function(){
