@@ -38,7 +38,7 @@ header {
   padding-top: 10px;
 }
 
-.filler {
+.skylineBottom {
   background-color: $mediumBlue;
   width: 100%;
   height: 15px;
@@ -60,26 +60,36 @@ header {
 }
 
 .desktopNav {
-  @media (max-width: $screen-xs) {
-    display: none;
-   }
-  @media (max-width: $screen-md) {
-    display: none;
-   }
-  @media (min-width: $screen-lg) {
-    // font-size: 18px;
+  display: none;
+  background-color: $newlightGray;
+  @media (min-width: $screen-sm) {
+    display: block;
    }
 }
 
 nav li {
   float: left;
+  text-align: center;
   // // margin/padding 0 to remove browser default settings. i guess.
   // margin-left: 100px;
-  padding: 10px;
-  background-color: $customGray;
+  color: $customGray;
+  font-weight: 600;
+  @media (min-width: $screen-sm) {
+    padding: 10px;
+    padding-left: 6%;
+    padding-right: 6%;
+   }
+
 }
+
+
 
 //for desktop nav...
 #welcome {
+  display: none;
+  @media (min-width: $screen-lg) {
+    // font-size: 18px;
+    display: inline;
+   }
   float: right;
 }
